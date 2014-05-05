@@ -1,0 +1,123 @@
+\documentclass[letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[activeacute,spanish]{babel}
+\usepackage[vmargin=4cm,tmargin=3cm,hmargin=2cm,letterpaper]{geometry}%
+\usepackage{helvet}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{verbatim}
+\usepackage{tabls}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage{url}
+\usepackage{listings}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{tikz}
+\usepackage{pgf}
+\usepackage{pgffor}
+\usepgfmodule{plot}
+\usepackage{wrapfig}
+\usetikzlibrary{arrows,decorations,snakes,backgrounds,fit,calc,through,scopes,positioning,automata,chains,er,fadings,calendar,matrix,mindmap,folding,patterns,petri,plothandlers,plotmarks,shadows,shapes,shapes.arrows,topaths,trees}
+
+\lstset{% general command to set parameter(s)
+%   basicstyle=\small,
+  % print whole listing small
+%   keywordstyle=\color{black}\bfseries\underbar,
+  % underlined bold black keywords
+%   identifierstyle=,
+  % nothing happens
+%   commentstyle=\color{white}, % white comments
+%   stringstyle=\ttfamily,
+  % typewriter type for strings
+  showstringspaces=false}
+  % no special string spaces
+
+\pagestyle{fancy}
+\color{black}
+\fancyhead{}
+\renewcommand{\headrule}{\hrule\vspace*{0.5mm}\rule{\linewidth}{0.8mm}}
+\renewcommand{\familydefault}{\sfdefault}
+
+\graphicspath{{./images/}}
+\lhead{\includegraphics[width=2cm]{logoucr.png}}
+\rhead{\includegraphics[width=3cm]{eie-text-gray-6x3cm.png}}
+\chead{UNIVERSIDAD DE COSTA RICA\\FACULTAD DE INGENIERÍA\\ESCUELA DE INGENIERÍA ELÉCTRICA\\\textbf{ESTRUCTURAS ABSTRACTAS DE DATOS Y\\ ALGORITMOS PARA INGENIERÍA}\\IE-0217\\I CICLO 2011\\PROPUESTA PROYECTO PROGRAMADO 1}
+
+\lfoot{}%
+\cfoot{}%
+%\cfoot{\thepage\ de \pageref{LastPage}}%
+\rfoot{}%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\uic}{black} %user-input color
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\uim}{\\} %user-input marker
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\userinput}[1]{\textcolor{\uic}{\uim#1\uim}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}\vspace*{2cm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+\Huge
+\userinput{Librería de percepción e imitación del movimiento humano con uso de Kinect y Robots NAO}
+\vspace*{1cm}
+\end{center}
+
+\noindent
+\small\baselineskip=14pt
+\textbf{Estudiante:} \userinput{Daniel Méndez Zeledón}\\
+\textbf{Carné:} \userinput{A83911}\\
+\textbf{Estudiante:} \userinput{Javier Acosta Villalobos}\\
+\textbf{Carné:} \userinput{A80056}\\
+\textbf{Estudiante:} \userinput{Willy Villalobos Marero}\\
+\textbf{Carné:} \userinput{B17170}\\
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introducción}
+
+Reconocer movimientos a través de una cámara es un desarrollo que tiene poco de haberse pensado. Desde consolas de video juegos hasta proyectos espaciales se incluyen dentro de las aplicaciones del reconocimiento de movimientos. Sin embargo, es difícil imitar estos movimientos para una computadora, ya que la precisión depende mucho del hardware que se utilice, desde la cámara hasta el robot con que se disponga para mimetizar el movimiento. Aprovechando las capacidades de los robots adquiridos por el PRIS Lab, se quiere crear una forma de que, a partir del hardware de Microsoft, Kinect, los robots copien los movimientos que sean percibidos por el dispositivo, ya que un proyecto así podría ser utilizado como base para investigaciones donde robots hagan el trabajo de humanos en lugares de riesgo, como por ejemplo, alguna planta radioactiva o inclusive en el espacio, sin arriesgar la invaluable vida humana.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Objetivos}
+
+\subsection{Objetivo General}
+
+Crear una librería capaz de, a travéz de un Kinect, reconozcer movimientos y detectar partes del cuerpo, con el fin de ser sintetizadas y transferidas a los robots para que estos imiten los movimientos previamente adquiridos.\\
+
+\subsection{Objetivos Específicos}
+
+
+\begin{enumerate}
+\item Con el Kinect, crear una clase de detección de partes del cuerpo (cabeza, torso, extremidades) usando la librería libre (OpenKinect) para el control del Kinect.
+\item Crear una clase que tome las secciones del cuerpo y con estos reconozca movimientos, gestos y vértices.
+\item Crear una interfaz de conexión donde los resultados del análisis de movimiento se traduzcan a funciones de movimiento que son exclusivas de la interfaz de los Robots NAO.
+ 
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Metodología}
+
+Inicialmente, se crearán las librerías de detección de movimiento en el lenguaje de C++, donde se obtendrán las extremidades, cuerpo y cabeza de la persona. Además, se deberán crear las librerías donde se haga la traducción del movimiento real al movimiento del robot.
+
+Con el uso del Kinect y la librería gratuita OpenKinect, se harán muestras para una pequeña demostración del proyecto.
+
+El proyecto tiene como objetivo hacer la mímica del movimiento humano de manera offline, primero se toman los movimientos y luego el robot los hace. Si esta aplicación funcionara de manera correcta, se procedería a implementar la misma aplicación pero de manera online, de modo que el robot imite los movimientos casi al mismo tiempo que se hacen sobre el Kinect.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Referencias}
+
+\begin{enumerate}
+\item http://openkinect.org \textbf{Documentación OpenKinect para uso de Kinect con la PC.}
+\item https://github.com/OpenKinect/libfreenect \textbf{Respositorio de las librerias OpenKinect}
+\end{enumerate}
+	
+\end{document}
+
