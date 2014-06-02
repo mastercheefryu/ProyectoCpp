@@ -1,0 +1,28 @@
+#include "joint.cpp"
+
+
+int main(){
+
+    using namespace std;
+
+    float a[3]={4, 0, 0};
+    float b[3]={0, 4, 0};
+    float c[3]={0, 0, 0};
+    float d, e, f, g;
+    Joint result;
+
+    d=result.length(a,b);//opuesto
+    e=result.length(b,c);
+    f=result.length(c,a);
+    g=result.angle(e, f, d);
+	cout << a[0] << endl;
+	cout << b[1] << endl;
+	cout << c[2] << endl;
+	cout << d << endl;
+	cout << e << endl;
+	cout << f  << endl;
+	cout << g << endl;
+
+    return (0);
+
+}

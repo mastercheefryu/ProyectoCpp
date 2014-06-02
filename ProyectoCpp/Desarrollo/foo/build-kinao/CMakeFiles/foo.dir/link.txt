@@ -1,0 +1,1 @@
+/usr/bin/c++   -g    CMakeFiles/foo.dir/main.cpp.o  -o sdk/bin/foo -rdynamic -Wl,-rpath,:::::::::::::: 

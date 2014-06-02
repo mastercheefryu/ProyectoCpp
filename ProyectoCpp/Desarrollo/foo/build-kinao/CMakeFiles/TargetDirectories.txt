@@ -1,0 +1,2 @@
+/home/daniel/UCR/EyATeam/ProyectoCpp/Desarrollo/foo/build-kinao/CMakeFiles/foo.dir
+/home/daniel/UCR/EyATeam/ProyectoCpp/Desarrollo/foo/build-kinao/CMakeFiles/test_foo.dir
