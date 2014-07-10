@@ -1,0 +1,171 @@
+\documentclass[letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[activeacute,spanish]{babel}
+\usepackage[vmargin=4cm,tmargin=3cm,hmargin=2cm,letterpaper]{geometry}%
+\usepackage{helvet}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{verbatim}
+\usepackage{tabls}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage{url}
+\usepackage{listings}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{tikz}
+\usepackage{pgf}
+\usepackage{pgffor}
+\usepackage{pgfgantt}
+\usepgfmodule{plot}
+\usepackage{wrapfig}
+\usetikzlibrary{arrows,decorations,snakes,backgrounds,fit,calc,through,scopes,positioning,automata,chains,er,fadings,calendar,matrix,mindmap,folding,patterns,petri,plothandlers,plotmarks,shadows,shapes,shapes.arrows,topaths,trees}
+
+\lstset{% general command to set parameter(s)
+%   basicstyle=\small,
+  % print whole listing small
+%   keywordstyle=\color{black}\bfseries\underbar,
+  % underlined bold black keywords
+%   identifierstyle=,
+  % nothing happens
+%   commentstyle=\color{white}, % white comments
+%   stringstyle=\ttfamily,
+  % typewriter type for strings
+  showstringspaces=false}
+  % no special string spaces
+
+\pagestyle{fancy}
+\color{black}
+\fancyhead{}
+\renewcommand{\headrule}{\hrule\vspace*{0.5mm}\rule{\linewidth}{0.8mm}}
+\renewcommand{\familydefault}{\sfdefault}
+
+\graphicspath{{./images/}}
+\lhead{\includegraphics[width=2cm]{logoucr.png}}
+\rhead{\includegraphics[width=3cm]{eie-text-gray-6x3cm.png}}
+\chead{UNIVERSIDAD DE COSTA RICA\\FACULTAD DE INGENIERÍA\\ESCUELA DE INGENIERÍA ELÉCTRICA\\\textbf{ESTRUCTURAS ABSTRACTAS DE DATOS Y\\ ALGORITMOS PARA INGENIERÍA}\\IE-0217\\I CICLO 2014\\PROPUESTA DE INVESTIGACIÓN BIBLIOGRÁFICA 03}
+
+\lfoot{}%
+\cfoot{}%
+%\cfoot{\thepage\ de \pageref{LastPage}}%
+\rfoot{}%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\uic}{black} %user-input color
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\uim}{} %user-input marker
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\userinput}[1]{\textcolor{\uic}{\uim#1\uim}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}\vspace*{2cm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+\Huge
+\userinput{Manipulación de Point Cloud Data Files mediante Point Cloud Library}
+\vspace*{1cm}
+\end{center}
+
+\noindent
+\small\baselineskip=14pt
+\textbf{Estudiante:} \userinput{Willy Gerardo Villalobos Marrero}\\
+\textbf{Carné:} \userinput{B17170}\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introducción}
+
+Recientemente, dado el auge en el desarrollo de dispositivos para escanear ambientes, detectar formas y  objetos, o simplemente grabar el entorno, particularmente gracias al lanzamiento del Kinect de Microsoft o el Xstion de Asus, se ha garantizado el acceso a bajo costo a este tipo de tecnologías para que casi cualquier persona con pocos recursos  logre desarrollar algoritmos de visión por computador, robótica u otras aplicaciones. Una aplicación particular es el escaneo del entorno, generando de esta forma point clouds o nubes de puntos, para poder luego determinar qué clase de objeto se escanea, su posición, entre otros datos útiles.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.5\textwidth]{imagenes/bremen01.jpg}\label{bremen01}
+	\caption{Muestra de Point Cloud de la ciudad de Bremen, Alemania}
+\end{figure}
+
+El manejo de point clouds para visión por computador y robótica se vuelve especialmente importante para efectos de que el autómata reconozca su entorno, si hay una pared o pasillo. Los point clouds generados mediante escáneres como el kinect devuelven simplemente miles de puntos ubicados espacialmente según el entorno escaneado, y en un principio no tienen un significado especial, sin embargo, dado que los puntos siguen  el patrón del entorno, es posible ejecutar algoritmos que relacionen dichos puntos a una superficie paramétrica, como lo sería un plano, y de esta forma lograr que el robot distinga paredes, esquinas y caminos transitables según el resultado de los algoritmos de detección de patrones, como lo sería el Hough Transform para planos en el espacio.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.5\textwidth]{imagenes/bremen03.jpg}\label{bremen03}
+	\caption{Muestra de Point Clouds para distintas aplicaciones}
+\end{figure}
+
+
+Este panorama nos lleva a pensar en la posibilidad de construir o emplear una librería que trabaje directamente sobre los datos de point clouds, para poder realizar cálculos y así tomar una línea de acción de acuerdo a los resultados. Un ejemplo de dichas librerías es Point Cloud Library (PCL), el cual trabaja sobre archivos  de point clouds del formato Point Cloud Data (.PCD).
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Objetivos}
+
+\subsection{Objetivo General}
+
+Explicar la librería Point Cloud Library para manipular archivos de point clouds.\\
+
+\subsection{Objetivos Específicos}
+
+Los objetivos específicos son:\\
+
+\begin{enumerate}
+\item Identificar los distintos formatos de los archivos que se utilizan para almacenar y manipular point cloud data.
+\item Demostrar el funcionamiento de algunas de las funciones de la librería PCL. 
+\item Plantear posibles escenarios de aplicación para la librería PCL o alguna de sus funciones.
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Metodología}
+
+Se investigará sobre posibles alternativas para manipulación de point cloud data files antes de profundizar en la librería a exponer, se analizarán algunas funciones que tiene la librería para realizar operaciones sobre archivos .PCD y se correran para verificar su debido funcionamiento. 
+
+\begin{ganttchart}{5}{23}
+	\gantttitle{Proyecto de Investigación Bibliográfica 03}{19} \\
+	\gantttitlelist{5,...,23}{1} \\
+	\ganttgroup{PCL}{5}{23} \\
+	\ganttbar{Investigación sobre Point Clouds}{5}{8} \\
+	\ganttlinkedbar{Manipulación con HT u otro algoritmo}{8}{13}
+	\ganttnewline
+	\ganttbar{Investigación sobre librerías}{13}{14} \\
+	\ganttlinkedbar{Instalación y estudio de PCL}{15}{21}
+	\ganttnewline
+	\ganttmilestone{Previo a Exposición}{21}
+	\ganttnewline
+	\ganttbar{Expoisición PIB03}{23}{23}
+	\ganttlink{elem2}{elem3}
+	\ganttlink{elem3}{elem4}
+	\ganttlink{elem4}{elem5}
+	\ganttlink{elem5}{elem6}
+\end{ganttchart}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Referencias}
+
+\begin{enumerate}
+
+\item Point Cloud Library Project Documentation site \\
+\url{http://pointclouds.org/documentation/}
+
+\item Borrmann, D., Elseberg, J., Lingemann, 	K., Nüchter, A. \textit{A Data Structure for the 3D Hough Transform for Plane Detection}. Jacobs University Bremen and University Osnabrück, Germany.
+
+\item Press, W., Teukolsky, W., Vetterling, W., Flannery, B. \textit{Numerical Recipes: The Art of Scietific Computing}, 3ra. Ed. Cambridge University Press, 2007
+\item Cormen, T., Leiserson, C., Rivest, R., Stein, C. \textit{Introduction To Algorithms}, 3ra. Ed. MIT Press, 2009
+
+\item Keymolen, B. \textit{Hough Transformation - C++ Implementation} \\ \url{http://www.keymolen.com/2013/05/hough-transformation-c-implementation.html}
+
+\item OpenCV project. \textit{Hough Line Transform}\\
+\url{http://docs.opencv.org/doc/tutorials/imgproc/imgtrans/hough_lines/hough_lines.html}
+
+\item OpenCV project. \textit{Hough Circle Transform}\\
+\url{http://docs.opencv.org/doc/tutorials/imgproc/imgtrans/hough_circle/hough_circle.html}
+
+\item Fisher, R., Perkins, S. Walker, A., Wolfart, E. \textit{Hough Transform}\\
+\url{http://homepages.inf.ed.ac.uk/rbf/HIPR2/hough.htm}
+
+\item Ballard, D. H. \textit{Generalizing The Hough Transform To Detect Arbitrary Shapes}, Pergamon Press, 1980
+
+\end{enumerate}
+	
+\end{document}
+
