@@ -116,6 +116,9 @@
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\tableofcontents
+\pagenumbering{arabic}
+\pagebreak
 \section{Introducción}
 
 Como parte del desarrollo de reconocimiento de patrones, se ha tratado de elaborar una pequeña librería la cual permitiese tomar, a partir de una cámara de Kinect, el esqueleto de una persona, mediante un algoritmo. Luego, con las posiciones X, Y, Z de cada uno de los puntos de los ligamentos del cuerpo, se podría analizar el movimiento de cada parte del cuerpo. Debido a que la cámara del Kinect permite analizar la profundidad, es, de cierta manera, sencillo analizar las posiciones, no solamente las que se muestran en el plano XY. Para este análisis, se utilizará como base la librería OpenNI que permite controlar, de manera eficaz, la cámara del Kinect, así como obtener los parámetros que el Kinect analiza.\\
@@ -165,7 +168,7 @@ A la hora de trasladar la información de ángulos a un robot, se debe tener en 
 Un próximo paso será plantear una escala de variación de manera que no solo se consideren los valores extremos de extensión del robot, sino que se pueda realizar una calibración con la persona para que los movimientos del humano sean realizados por el robot siguiendo una escala adecuada para que la máxima extensión del humano coincida con la del robot.\\
 
 Cabe resaltar que el despliegue de información, empezando por el esqueleto, se realiza tomando como base el generador de esqueletos de OpenNI.\\
-\pagebreak
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \input{class_joint}

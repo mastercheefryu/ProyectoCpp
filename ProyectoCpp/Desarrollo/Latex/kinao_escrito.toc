@@ -1,0 +1,48 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {1}Introducci\IeC {\'o}n}{2}{section.1}
+\contentsline {section}{\numberline {2}Objetivos}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}Objetivo General}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Objetivos Espec\IeC {\'\i }ficos}{3}{subsection.2.2}
+\contentsline {section}{\numberline {3}Funciones agregadas}{3}{section.3}
+\contentsline {section}{\numberline {4}\discretionary {-}{}{}Referencia de \discretionary {-}{}{}Clase \discretionary {-}{}{}Joint}{4}{section.4}
+\contentsline {subsection}{\numberline {4.1}\discretionary {-}{}{}Descripci\IeC {\'o}n \discretionary {-}{}{}Detallada}{5}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}\discretionary {-}{}{}Documentaci\IeC {\'o}n de \discretionary {-}{}{}Funci\IeC {\'o}n \discretionary {-}{}{}Miembro}{5}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}angle}{5}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}generate\discretionary {-}{}{}Reference}{5}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}get\discretionary {-}{}{}Angle}{6}{subsubsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.4}get\discretionary {-}{}{}Normal\discretionary {-}{}{}Vector}{6}{subsubsection.4.2.4}
+\contentsline {subsubsection}{\numberline {4.2.5}get\discretionary {-}{}{}Proyection}{6}{subsubsection.4.2.5}
+\contentsline {subsubsection}{\numberline {4.2.6}get\discretionary {-}{}{}Proyection\discretionary {-}{}{}Vector}{6}{subsubsection.4.2.6}
+\contentsline {subsubsection}{\numberline {4.2.7}length}{6}{subsubsection.4.2.7}
+\contentsline {subsection}{\numberline {4.3}\discretionary {-}{}{}Referencia de \discretionary {-}{}{}Clase \discretionary {-}{}{}Head}{7}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}\discretionary {-}{}{}Descripci\IeC {\'o}n \discretionary {-}{}{}Detallada}{7}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}\discretionary {-}{}{}Documentaci\IeC {\'o}n de \discretionary {-}{}{}Funci\IeC {\'o}n \discretionary {-}{}{}Miembro}{7}{subsection.4.5}
+\contentsline {subsubsection}{\numberline {4.5.1}get\discretionary {-}{}{}Head\discretionary {-}{}{}Pitch}{7}{subsubsection.4.5.1}
+\contentsline {section}{\numberline {5}\discretionary {-}{}{}Referencia de \discretionary {-}{}{}Clase \discretionary {-}{}{}L\discretionary {-}{}{}Arm}{8}{section.5}
+\contentsline {subsection}{\numberline {5.1}\discretionary {-}{}{}Descripci\IeC {\'o}n \discretionary {-}{}{}Detallada}{8}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}\discretionary {-}{}{}Documentaci\IeC {\'o}n de \discretionary {-}{}{}Funci\IeC {\'o}n \discretionary {-}{}{}Miembro}{8}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}get\discretionary {-}{}{}Elbow\discretionary {-}{}{}Roll}{8}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}get\discretionary {-}{}{}Elbow\discretionary {-}{}{}Yaw}{9}{subsubsection.5.2.2}
+\contentsline {section}{\numberline {6}\discretionary {-}{}{}Referencia de \discretionary {-}{}{}Clase \discretionary {-}{}{}L\discretionary {-}{}{}Leg}{9}{section.6}
+\contentsline {subsection}{\numberline {6.1}\discretionary {-}{}{}Descripci\IeC {\'o}n \discretionary {-}{}{}Detallada}{10}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}\discretionary {-}{}{}Documentaci\IeC {\'o}n de \discretionary {-}{}{}Funci\IeC {\'o}n \discretionary {-}{}{}Miembro}{10}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}get\discretionary {-}{}{}Hip\discretionary {-}{}{}Roll}{10}{subsubsection.6.2.1}
+\contentsline {section}{\numberline {7}{\discretionary {-}{}{}R\discretionary {-}{}{}Arm \discretionary {-}{}{}Class \discretionary {-}{}{}Reference} \discretionary {-}{}{}R\discretionary {-}{}{}Arm}{10}{section.7}
+\contentsline {subsection}{\numberline {7.1}\discretionary {-}{}{}Descripci\IeC {\'o}n \discretionary {-}{}{}Detallada}{11}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}\discretionary {-}{}{}Documentaci\IeC {\'o}n de \discretionary {-}{}{}Funci\IeC {\'o}n \discretionary {-}{}{}Miembro}{11}{subsection.7.2}
+\contentsline {subsubsection}{\numberline {7.2.1}get\discretionary {-}{}{}Elbow\discretionary {-}{}{}Roll}{11}{subsubsection.7.2.1}
+\contentsline {section}{\numberline {8}\discretionary {-}{}{}Referencia de \discretionary {-}{}{}Clase \discretionary {-}{}{}R\discretionary {-}{}{}Leg}{11}{section.8}
+\contentsline {subsection}{\numberline {8.1}\discretionary {-}{}{}Descripci\IeC {\'o}n \discretionary {-}{}{}Detallada}{12}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}\discretionary {-}{}{}Documentaci\IeC {\'o}n de \discretionary {-}{}{}Funci\IeC {\'o}n \discretionary {-}{}{}Miembro}{12}{subsection.8.2}
+\contentsline {subsubsection}{\numberline {8.2.1}get\discretionary {-}{}{}Hip\discretionary {-}{}{}Roll}{12}{subsubsection.8.2.1}
+\contentsline {section}{\numberline {9}\discretionary {-}{}{}Referencia de \discretionary {-}{}{}Estructura \discretionary {-}{}{}Xn\discretionary {-}{}{}Reference\discretionary {-}{}{}Axis}{12}{section.9}
+\contentsline {section}{\numberline {10}Conclusiones y Recomendaciones}{12}{section.10}
+\contentsline {section}{\numberline {11}Referencias}{13}{section.11}
+\contentsline {section}{\numberline {12}Anexos: Clases implementadas}{14}{section.12}
+\contentsline {subsection}{\numberline {12.1}class\_head}{14}{subsection.12.1}
+\contentsline {subsection}{\numberline {12.2}class\_joint}{14}{subsection.12.2}
+\contentsline {subsection}{\numberline {12.3}class\_l\_arm}{17}{subsection.12.3}
+\contentsline {subsection}{\numberline {12.4}class\_l\_leg}{19}{subsection.12.4}
+\contentsline {subsection}{\numberline {12.5}class\_r\_arm}{21}{subsection.12.5}
+\contentsline {subsection}{\numberline {12.6}class\_r\_leg}{23}{subsection.12.6}
+\contentsline {subsection}{\numberline {12.7}struct\_xn\_reference\_axis}{24}{subsection.12.7}

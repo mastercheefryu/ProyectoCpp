@@ -1,5 +1,5 @@
 # LaTeX Makefile
-FILE=kinao_escrito
+FILE=kinao_escrito.tex
 
 
 $(FILE):

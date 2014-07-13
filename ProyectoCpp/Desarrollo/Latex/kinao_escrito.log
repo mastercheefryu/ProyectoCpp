@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.6.2)  13 JUL 2014 02:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.6.2)  13 JUL 2014 02:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1493,61 +1493,58 @@ Underfull \hbox (badness 10000) in paragraph at lines 110--116
 
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 119.
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
-
- []
-
-<imagenes/person.png, id=211, 1371.1225pt x 770.88pt>
-File: imagenes/person.png Graphic file (type png)
-
-<use imagenes/person.png>
-Package pdftex.def Info: imagenes/person.png used on input line 127.
-(pdftex.def)             Requested size: 350.33727pt x 196.96585pt.
+(./kinao_escrito.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 2.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 2.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
-
- []
-
-<imagenes/nao_and_me.jpg, id=212, 578.16pt x 578.16pt>
-File: imagenes/nao_and_me.jpg Graphic file (type jpg)
-
-<use imagenes/nao_and_me.jpg>
-Package pdftex.def Info: imagenes/nao_and_me.jpg used on input line 135.
-(pdftex.def)             Requested size: 200.19054pt x 200.18881pt.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 2.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 2.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 2.
 
- []
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
 
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 143.
-<logoucr.png, id=213, 316.18124pt x 331.2375pt>
+<logoucr.png, id=231, 316.18124pt x 331.2375pt>
 File: logoucr.png Graphic file (type png)
  <use logoucr.png>
-Package pdftex.def Info: logoucr.png used on input line 146.
+Package pdftex.def Info: logoucr.png used on input line 22.
 (pdftex.def)             Requested size: 56.9055pt x 59.61511pt.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 146.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 22.
 
-<eie-text-gray-6x3cm.png, id=214, 149.5989pt x 85.2786pt>
+<eie-text-gray-6x3cm.png, id=232, 149.5989pt x 85.2786pt>
 File: eie-text-gray-6x3cm.png Graphic file (type png)
 
 <use eie-text-gray-6x3cm.png>
-Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 146.
+Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 22.
 (pdftex.def)             Requested size: 85.35826pt x 48.65874pt.
 
 
@@ -1558,89 +1555,110 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
- <./logoucr.png> <./eie-text-gray-6x3cm.png>]
+ <./logoucr.png> <./eie-text-gray-6x3cm.png>])
+\tf@toc=\write5
+\openout5 = `kinao_escrito.toc'.
+
 File: logoucr.png Graphic file (type png)
  <use logoucr.png>
-Package pdftex.def Info: logoucr.png used on input line 151.
+Package pdftex.def Info: logoucr.png used on input line 122.
 (pdftex.def)             Requested size: 56.9055pt x 59.61511pt.
 File: eie-text-gray-6x3cm.png Graphic file (type png)
  <use eie-text-gray-6x3cm.png>
-Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 151.
+Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 122.
 (pdftex.def)             Requested size: 85.35826pt x 48.65874pt.
- [2 <./imagenes/person.png> <./imagenes/nao_and_me.jpg>]
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 15
-7.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
-File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
-)
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 15
-7.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
-File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
-)
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 15
-7.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
-File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
-)
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 15
-7.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
-File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
-)
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 157.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 157.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 157.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 157.
-
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.122 \section
+              {IntroducciÃ³n} [1]
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+
+ []
+
+<imagenes/person.png, id=273, 1371.1225pt x 770.88pt>
+File: imagenes/person.png Graphic file (type png)
+
+<use imagenes/person.png>
+Package pdftex.def Info: imagenes/person.png used on input line 130.
+(pdftex.def)             Requested size: 350.33727pt x 196.96585pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
+
+ []
+
+<imagenes/nao_and_me.jpg, id=274, 578.16pt x 578.16pt>
+File: imagenes/nao_and_me.jpg Graphic file (type jpg)
+
+<use imagenes/nao_and_me.jpg>
+Package pdftex.def Info: imagenes/nao_and_me.jpg used on input line 138.
+(pdftex.def)             Requested size: 200.19054pt x 200.18881pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
+
+ []
+
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 146.
+File: logoucr.png Graphic file (type png)
+<use logoucr.png>
+Package pdftex.def Info: logoucr.png used on input line 149.
+(pdftex.def)             Requested size: 56.9055pt x 59.61511pt.
+File: eie-text-gray-6x3cm.png Graphic file (type png)
+ <use eie-text-gray-6x3cm.png>
+Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 149.
+(pdftex.def)             Requested size: 85.35826pt x 48.65874pt.
+ [2 <./imagenes/person.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
 
  []
 
 File: logoucr.png Graphic file (type png)
 <use logoucr.png>
-Package pdftex.def Info: logoucr.png used on input line 170.
+Package pdftex.def Info: logoucr.png used on input line 163.
 (pdftex.def)             Requested size: 56.9055pt x 59.61511pt.
 File: eie-text-gray-6x3cm.png Graphic file (type png)
  <use eie-text-gray-6x3cm.png>
-Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 170.
+Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 163.
 (pdftex.def)             Requested size: 85.35826pt x 48.65874pt.
- [3] (./class_joint.tex
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 11.
+ [3 <./imagenes/nao_and_me.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+
+ []
+
+(./class_joint.tex
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 11.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 Package epstopdf Info: Source file: <class_joint.eps>
@@ -1654,7 +1672,7 @@ to.pdf class_joint.eps>
 (epstopdf)             \includegraphics on input line 16.
 Package epstopdf Info: Output file is already uptodate.
 
-<class_joint-eps-converted-to.pdf, id=239, 501.875pt x 157.44823pt>
+<class_joint-eps-converted-to.pdf, id=290, 501.875pt x 157.44823pt>
 File: class_joint-eps-converted-to.pdf Graphic file (type pdf)
 
 <use class_joint-eps-converted-to.pdf>
@@ -1668,6 +1686,16 @@ File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 27.
+File: logoucr.png Graphic file (type png)
+ <use logoucr.png>
+Package pdftex.def Info: logoucr.png used on input line 37.
+(pdftex.def)             Requested size: 56.9055pt x 59.61511pt.
+File: eie-text-gray-6x3cm.png Graphic file (type png)
+
+<use eie-text-gray-6x3cm.png>
+Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 37.
+(pdftex.def)             Requested size: 85.35826pt x 48.65874pt.
+ [4 <./class_joint-eps-converted-to.pdf>]
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10> not available
 (Font)              Font shape `T1/pcr/b/n' tried instead on input line 59.
 
@@ -1677,68 +1705,69 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
 File: logoucr.png Graphic file (type png)
 <use logoucr.png>
-Package pdftex.def Info: logoucr.png used on input line 61.
+Package pdftex.def Info: logoucr.png used on input line 95.
 (pdftex.def)             Requested size: 56.9055pt x 59.61511pt.
 File: eie-text-gray-6x3cm.png Graphic file (type png)
  <use eie-text-gray-6x3cm.png>
-Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 61.
+Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 95.
 (pdftex.def)             Requested size: 85.35826pt x 48.65874pt.
- [4 <./class_joint-eps-converted-to.pdf>]
+ [5]
 File: logoucr.png Graphic file (type png)
  <use logoucr.png>
-Package pdftex.def Info: logoucr.png used on input line 118.
+Package pdftex.def Info: logoucr.png used on input line 152.
 (pdftex.def)             Requested size: 56.9055pt x 59.61511pt.
 File: eie-text-gray-6x3cm.png Graphic file (type png)
- <use eie-text-gray-6x3cm.png>
-Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 118.
-(pdftex.def)             Requested size: 85.35826pt x 48.65874pt.
- [5])
-(./class_head.tex <class_head.pdf, id=288, 501.875pt x 803.0pt>
-File: class_head.pdf Graphic file (type pdf)
 
-<use class_head.pdf>
+<use eie-text-gray-6x3cm.png>
+Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 152.
+(pdftex.def)             Requested size: 85.35826pt x 48.65874pt.
+ [6]) (./class_head.tex
+<class_head.pdf, id=347, 501.875pt x 803.0pt>
+File: class_head.pdf Graphic file (type pdf)
+ <use class_head.pdf>
 Package pdftex.def Info: class_head.pdf used on input line 17.
 (pdftex.def)             Requested size: 35.56367pt x 56.9055pt.
+)
+(./class_l_arm.tex
 File: logoucr.png Graphic file (type png)
  <use logoucr.png>
-Package pdftex.def Info: logoucr.png used on input line 36.
+Package pdftex.def Info: logoucr.png used on input line 11.
 (pdftex.def)             Requested size: 56.9055pt x 59.61511pt.
 File: eie-text-gray-6x3cm.png Graphic file (type png)
  <use eie-text-gray-6x3cm.png>
-Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 36.
+Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 11.
 (pdftex.def)             Requested size: 85.35826pt x 48.65874pt.
- [6 <./class_head.pdf>]) (./class_l_arm.tex
-<class_l_arm.pdf, id=307, 501.875pt x 803.0pt>
+ [7 <./class_head.pdf>] <class_l_arm.pdf, id=367, 501.875pt x 803.0pt>
 File: class_l_arm.pdf Graphic file (type pdf)
- <use class_l_arm.pdf>
+
+<use class_l_arm.pdf>
 Package pdftex.def Info: class_l_arm.pdf used on input line 16.
 (pdftex.def)             Requested size: 35.56367pt x 56.9055pt.
 File: logoucr.png Graphic file (type png)
-
-<use logoucr.png>
-Package pdftex.def Info: logoucr.png used on input line 30.
+ <use logoucr.png>
+Package pdftex.def Info: logoucr.png used on input line 72.
 (pdftex.def)             Requested size: 56.9055pt x 59.61511pt.
 File: eie-text-gray-6x3cm.png Graphic file (type png)
  <use eie-text-gray-6x3cm.png>
-Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 30.
+Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 72.
 (pdftex.def)             Requested size: 85.35826pt x 48.65874pt.
- [7 <./class_l_arm.pdf>])
-(./class_l_leg.tex <class_l_leg.pdf, id=330, 501.875pt x 836.455pt>
+ [8 <./class_l_arm.pdf>]) (./class_l_leg.tex
+<class_l_leg.pdf, id=390, 501.875pt x 836.455pt>
 File: class_l_leg.pdf Graphic file (type pdf)
-
-<use class_l_leg.pdf>
+ <use class_l_leg.pdf>
 Package pdftex.def Info: class_l_leg.pdf used on input line 7.
 (pdftex.def)             Requested size: 34.1393pt x 56.9055pt.
 File: logoucr.png Graphic file (type png)
- <use logoucr.png>
-Package pdftex.def Info: logoucr.png used on input line 10.
+
+<use logoucr.png>
+Package pdftex.def Info: logoucr.png used on input line 34.
 (pdftex.def)             Requested size: 56.9055pt x 59.61511pt.
 File: eie-text-gray-6x3cm.png Graphic file (type png)
  <use eie-text-gray-6x3cm.png>
-Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 10.
+Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 34.
 (pdftex.def)             Requested size: 85.35826pt x 48.65874pt.
- [8])
-(./class_r_arm.tex <class_r_arm.pdf, id=347, 501.875pt x 787.25116pt>
+ [9 <./class_l_leg.pdf>])
+(./class_r_arm.tex <class_r_arm.pdf, id=414, 501.875pt x 787.25116pt>
 File: class_r_arm.pdf Graphic file (type pdf)
 
 <use class_r_arm.pdf>
@@ -1746,14 +1775,14 @@ Package pdftex.def Info: class_r_arm.pdf used on input line 7.
 (pdftex.def)             Requested size: 36.27588pt x 56.9055pt.
 File: logoucr.png Graphic file (type png)
  <use logoucr.png>
-Package pdftex.def Info: logoucr.png used on input line 9.
+Package pdftex.def Info: logoucr.png used on input line 34.
 (pdftex.def)             Requested size: 56.9055pt x 59.61511pt.
 File: eie-text-gray-6x3cm.png Graphic file (type png)
  <use eie-text-gray-6x3cm.png>
-Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 9.
+Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 34.
 (pdftex.def)             Requested size: 85.35826pt x 48.65874pt.
- [9 <./class_l_leg.pdf>]) (./class_r_leg.tex
-<class_r_leg.pdf, id=371, 501.875pt x 819.39125pt>
+ [10 <./class_r_arm.pdf>]) (./class_r_leg.tex
+<class_r_leg.pdf, id=439, 501.875pt x 819.39125pt>
 File: class_r_leg.pdf Graphic file (type pdf)
  <use class_r_leg.pdf>
 Package pdftex.def Info: class_r_leg.pdf used on input line 7.
@@ -1761,70 +1790,72 @@ Package pdftex.def Info: class_r_leg.pdf used on input line 7.
 File: logoucr.png Graphic file (type png)
 
 <use logoucr.png>
-Package pdftex.def Info: logoucr.png used on input line 10.
+Package pdftex.def Info: logoucr.png used on input line 35.
 (pdftex.def)             Requested size: 56.9055pt x 59.61511pt.
 File: eie-text-gray-6x3cm.png Graphic file (type png)
  <use eie-text-gray-6x3cm.png>
-Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 10.
-(pdftex.def)             Requested size: 85.35826pt x 48.65874pt.
- [10 <./class_r_arm.pdf>])
-(./struct_xn_reference_axis.tex
-File: logoucr.png Graphic file (type png)
- <use logoucr.png>
-Package pdftex.def Info: logoucr.png used on input line 10.
-(pdftex.def)             Requested size: 56.9055pt x 59.61511pt.
-File: eie-text-gray-6x3cm.png Graphic file (type png)
-
-<use eie-text-gray-6x3cm.png>
-Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 10.
+Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 35.
 (pdftex.def)             Requested size: 85.35826pt x 48.65874pt.
  [11 <./class_r_leg.pdf>])
-<imagenes/coordenadas-rotado.jpeg, id=414, 256.96pt x 192.72pt>
+(./struct_xn_reference_axis.tex)
+<imagenes/coordenadas-rotado.jpeg, id=466, 256.96pt x 192.72pt>
 File: imagenes/coordenadas-rotado.jpeg Graphic file (type jpg)
 
 <use imagenes/coordenadas-rotado.jpeg>
 Package pdftex.def Info: imagenes/coordenadas-rotado.jpeg used on input line 18
-2.
+5.
 (pdftex.def)             Requested size: 275.26772pt x 206.46712pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--189
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--191
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--193
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
 
  []
 
 File: logoucr.png Graphic file (type png)
 <use logoucr.png>
-Package pdftex.def Info: logoucr.png used on input line 193.
+Package pdftex.def Info: logoucr.png used on input line 196.
 (pdftex.def)             Requested size: 56.9055pt x 59.61511pt.
 File: eie-text-gray-6x3cm.png Graphic file (type png)
  <use eie-text-gray-6x3cm.png>
-Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 193.
+Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 196.
 (pdftex.def)             Requested size: 85.35826pt x 48.65874pt.
- [12 <./imagenes/coordenadas-rotado.jpeg>]
-Overfull \hbox (178.78145pt too wide) in paragraph at lines 208--209
+ [12]
+Overfull \hbox (178.78145pt too wide) in paragraph at lines 211--212
 []\T1/phv/m/n/9 Cálculo vec-to-rial en c++[][]$\T1/pcr/m/n/9 http : / / stackov
 erflow . com / questions / 13984154 / different-[]methods-[]for-[]finding-[]ang
 le-[]between-[]two-[]vectors$[][] 
  []
 
-
-Overfull \hbox (29.36865pt too wide) in paragraph at lines 210--211
+File: logoucr.png Graphic file (type png)
+<use logoucr.png>
+Package pdftex.def Info: logoucr.png used on input line 213.
+(pdftex.def)             Requested size: 56.9055pt x 59.61511pt.
+File: eie-text-gray-6x3cm.png Graphic file (type png)
+ <use eie-text-gray-6x3cm.png>
+Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 213.
+(pdftex.def)             Requested size: 85.35826pt x 48.65874pt.
+ [13 <./imagenes/coordenadas-rotado.jpeg>]
+Overfull \hbox (29.36865pt too wide) in paragraph at lines 213--214
 []\T1/phv/m/n/9 Instalación open-ni [][]$\T1/pcr/m/n/9 http : / / igorbarbosa .
  com / articles / how-[]to-[]install-[]kin-[]in-[]linux-[]mint-[]12-[]ubuntu/$[
 ][] 
  []
 
 
-Overfull \hbox (184.31532pt too wide) in paragraph at lines 211--212
+Overfull \hbox (184.31532pt too wide) in paragraph at lines 214--215
 [][][]$\T1/pcr/m/n/9 http : / / blog . jorgeivanmeza . com / 2011 / 12 / instal
 acion-[]openni-[]sensor-[]kinect-[]y-[]nite-[]en-[]gnulinux-[]ubuntu-[]11-[]10-
 []desde-[]fuentes/$[][] 
@@ -1838,24 +1869,14 @@ File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
-) (./code/head.cpp
+) (./code/head.cpp) (./code/joint.cpp
 File: logoucr.png Graphic file (type png)
-<use logoucr.png>
-Package pdftex.def Info: logoucr.png used on input line 10.
+ <use logoucr.png>
+Package pdftex.def Info: logoucr.png used on input line 2.
 (pdftex.def)             Requested size: 56.9055pt x 59.61511pt.
 File: eie-text-gray-6x3cm.png Graphic file (type png)
  <use eie-text-gray-6x3cm.png>
-Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 10.
-(pdftex.def)             Requested size: 85.35826pt x 48.65874pt.
- [13]) (./code/joint.cpp
-File: logoucr.png Graphic file (type png)
-
-<use logoucr.png>
-Package pdftex.def Info: logoucr.png used on input line 20.
-(pdftex.def)             Requested size: 56.9055pt x 59.61511pt.
-File: eie-text-gray-6x3cm.png Graphic file (type png)
- <use eie-text-gray-6x3cm.png>
-Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 20.
+Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 2.
 (pdftex.def)             Requested size: 85.35826pt x 48.65874pt.
  [14]
 Overfull \hbox (12.52122pt too wide) in paragraph at lines 37--39
@@ -1864,11 +1885,11 @@ Overfull \hbox (12.52122pt too wide) in paragraph at lines 37--39
 
 File: logoucr.png Graphic file (type png)
 <use logoucr.png>
-Package pdftex.def Info: logoucr.png used on input line 74.
+Package pdftex.def Info: logoucr.png used on input line 56.
 (pdftex.def)             Requested size: 56.9055pt x 59.61511pt.
 File: eie-text-gray-6x3cm.png Graphic file (type png)
  <use eie-text-gray-6x3cm.png>
-Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 74.
+Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 56.
 (pdftex.def)             Requested size: 85.35826pt x 48.65874pt.
  [15]
 Overfull \hbox (23.32133pt too wide) in paragraph at lines 74--75
@@ -1882,31 +1903,31 @@ Overfull \hbox (23.32133pt too wide) in paragraph at lines 95--96
 
 File: logoucr.png Graphic file (type png)
 <use logoucr.png>
-Package pdftex.def Info: logoucr.png used on input line 128.
+Package pdftex.def Info: logoucr.png used on input line 110.
 (pdftex.def)             Requested size: 56.9055pt x 59.61511pt.
 File: eie-text-gray-6x3cm.png Graphic file (type png)
  <use eie-text-gray-6x3cm.png>
-Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 128.
+Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 110.
 (pdftex.def)             Requested size: 85.35826pt x 48.65874pt.
  [16]) (./code/larm.cpp
 Overfull \hbox (115.12227pt too wide) in paragraph at lines 24--26
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-
+File: logoucr.png Graphic file (type png)
+<use logoucr.png>
+Package pdftex.def Info: logoucr.png used on input line 32.
+(pdftex.def)             Requested size: 56.9055pt x 59.61511pt.
+File: eie-text-gray-6x3cm.png Graphic file (type png)
+ <use eie-text-gray-6x3cm.png>
+Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 32.
+(pdftex.def)             Requested size: 85.35826pt x 48.65874pt.
+ [17]
 Overfull \hbox (12.52122pt too wide) in paragraph at lines 38--40
 [][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-File: logoucr.png Graphic file (type png)
-<use logoucr.png>
-Package pdftex.def Info: logoucr.png used on input line 51.
-(pdftex.def)             Requested size: 56.9055pt x 59.61511pt.
-File: eie-text-gray-6x3cm.png Graphic file (type png)
- <use eie-text-gray-6x3cm.png>
-Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 51.
-(pdftex.def)             Requested size: 85.35826pt x 48.65874pt.
- [17]
+
 Overfull \hbox (223.12337pt too wide) in paragraph at lines 57--59
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -1922,7 +1943,15 @@ Overfull \hbox (163.72276pt too wide) in paragraph at lines 72--73
 ][][][][] 
  []
 
-
+File: logoucr.png Graphic file (type png)
+<use logoucr.png>
+Package pdftex.def Info: logoucr.png used on input line 87.
+(pdftex.def)             Requested size: 56.9055pt x 59.61511pt.
+File: eie-text-gray-6x3cm.png Graphic file (type png)
+ <use eie-text-gray-6x3cm.png>
+Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 87.
+(pdftex.def)             Requested size: 85.35826pt x 48.65874pt.
+ [18]
 Overfull \hbox (71.92183pt too wide) in paragraph at lines 90--91
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -1932,55 +1961,57 @@ Overfull \hbox (61.12172pt too wide) in paragraph at lines 91--92
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-File: logoucr.png Graphic file (type png)
-<use logoucr.png>
-Package pdftex.def Info: logoucr.png used on input line 104.
-(pdftex.def)             Requested size: 56.9055pt x 59.61511pt.
-File: eie-text-gray-6x3cm.png Graphic file (type png)
- <use eie-text-gray-6x3cm.png>
-Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 104.
-(pdftex.def)             Requested size: 85.35826pt x 48.65874pt.
- [18]
+
 Overfull \hbox (120.52232pt too wide) in paragraph at lines 120--122
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 ) (./code/lleg.cpp
+File: logoucr.png Graphic file (type png)
+ <use logoucr.png>
+Package pdftex.def Info: logoucr.png used on input line 10.
+(pdftex.def)             Requested size: 56.9055pt x 59.61511pt.
+File: eie-text-gray-6x3cm.png Graphic file (type png)
+ <use eie-text-gray-6x3cm.png>
+Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 10.
+(pdftex.def)             Requested size: 85.35826pt x 48.65874pt.
+ [19]
 Overfull \hbox (88.122pt too wide) in paragraph at lines 24--26
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-File: logoucr.png Graphic file (type png)
-<use logoucr.png>
-Package pdftex.def Info: logoucr.png used on input line 29.
-(pdftex.def)             Requested size: 56.9055pt x 59.61511pt.
-File: eie-text-gray-6x3cm.png Graphic file (type png)
- <use eie-text-gray-6x3cm.png>
-Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 29.
-(pdftex.def)             Requested size: 85.35826pt x 48.65874pt.
- [19]
+
 Overfull \hbox (88.122pt too wide) in paragraph at lines 49--51
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-
+File: logoucr.png Graphic file (type png)
+<use logoucr.png>
+Package pdftex.def Info: logoucr.png used on input line 63.
+(pdftex.def)             Requested size: 56.9055pt x 59.61511pt.
+File: eie-text-gray-6x3cm.png Graphic file (type png)
+ <use eie-text-gray-6x3cm.png>
+Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 63.
+(pdftex.def)             Requested size: 85.35826pt x 48.65874pt.
+ [20]
 Overfull \hbox (93.52205pt too wide) in paragraph at lines 73--75
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) (./code/rarm.cpp
+Overfull \hbox (115.12227pt too wide) in paragraph at lines 24--26
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 File: logoucr.png Graphic file (type png)
 <use logoucr.png>
-Package pdftex.def Info: logoucr.png used on input line 81.
+Package pdftex.def Info: logoucr.png used on input line 34.
 (pdftex.def)             Requested size: 56.9055pt x 59.61511pt.
 File: eie-text-gray-6x3cm.png Graphic file (type png)
  <use eie-text-gray-6x3cm.png>
-Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 81.
+Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 34.
 (pdftex.def)             Requested size: 85.35826pt x 48.65874pt.
- [20]) (./code/rarm.cpp
-Overfull \hbox (115.12227pt too wide) in paragraph at lines 24--26
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
+ [21]
 LaTeX Font Info:    Font shape `TS1/phv/m/it' in size <9> not available
 (Font)              Font shape `TS1/phv/m/sl' tried instead on input line 36.
 
@@ -1990,45 +2021,36 @@ Overfull \hbox (39.5215pt too wide) in paragraph at lines 41--43
 
 File: logoucr.png Graphic file (type png)
 <use logoucr.png>
-Package pdftex.def Info: logoucr.png used on input line 52.
+Package pdftex.def Info: logoucr.png used on input line 88.
 (pdftex.def)             Requested size: 56.9055pt x 59.61511pt.
 File: eie-text-gray-6x3cm.png Graphic file (type png)
  <use eie-text-gray-6x3cm.png>
-Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 52.
+Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 88.
 (pdftex.def)             Requested size: 85.35826pt x 48.65874pt.
- [21]
+ [22]
 Overfull \hbox (120.52232pt too wide) in paragraph at lines 92--94
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 ) (./code/rleg.cpp
-File: logoucr.png Graphic file (type png)
- <use logoucr.png>
-Package pdftex.def Info: logoucr.png used on input line 3.
-(pdftex.def)             Requested size: 56.9055pt x 59.61511pt.
-File: eie-text-gray-6x3cm.png Graphic file (type png)
- <use eie-text-gray-6x3cm.png>
-Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 3.
-(pdftex.def)             Requested size: 85.35826pt x 48.65874pt.
- [22]
 Overfull \hbox (88.122pt too wide) in paragraph at lines 24--26
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (88.122pt too wide) in paragraph at lines 47--49
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 File: logoucr.png Graphic file (type png)
 <use logoucr.png>
-Package pdftex.def Info: logoucr.png used on input line 57.
+Package pdftex.def Info: logoucr.png used on input line 39.
 (pdftex.def)             Requested size: 56.9055pt x 59.61511pt.
 File: eie-text-gray-6x3cm.png Graphic file (type png)
  <use eie-text-gray-6x3cm.png>
-Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 57.
+Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 39.
 (pdftex.def)             Requested size: 85.35826pt x 48.65874pt.
  [23]
+Overfull \hbox (88.122pt too wide) in paragraph at lines 47--49
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
 Overfull \hbox (93.52205pt too wide) in paragraph at lines 70--72
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -2037,33 +2059,37 @@ Overfull \hbox (93.52205pt too wide) in paragraph at lines 70--72
 AED: lastpage setting LastPage
 File: logoucr.png Graphic file (type png)
 <use logoucr.png>
-Package pdftex.def Info: logoucr.png used on input line 237.
+Package pdftex.def Info: logoucr.png used on input line 240.
 (pdftex.def)             Requested size: 56.9055pt x 59.61511pt.
 File: eie-text-gray-6x3cm.png Graphic file (type png)
  <use eie-text-gray-6x3cm.png>
-Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 237.
+Package pdftex.def Info: eie-text-gray-6x3cm.png used on input line 240.
 (pdftex.def)             Requested size: 85.35826pt x 48.65874pt.
  [24]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 237.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 237.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 240.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 240.
  (./kinao_escrito.aux
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 237.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 237.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 240.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 240.
 Package rerunfilecheck Info: File `kinao_escrito.out' has not changed.
 (rerunfilecheck)             Checksum: B13DD2DF99E4343137EBB8378C7B4856;7396.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 237.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 240.
  ) 
 Here is how much of TeX's memory you used:
- 27302 strings out of 493304
- 485932 string characters out of 6139872
- 637642 words of memory out of 5000000
+ 27306 strings out of 493304
+ 485982 string characters out of 6139872
+ 633056 words of memory out of 5000000
  29421 multiletter control sequences out of 15000+600000
  48221 words of font info for 77 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 56i,16n,65p,1167b,1941s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,16n,65p,1167b,1832s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
@@ -2076,10 +2102,10 @@ xlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr
 8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on kinao_escrito.pdf (24 pages, 625608 bytes).
+Output written on kinao_escrito.pdf (25 pages, 629962 bytes).
 PDF statistics:
- 1248 PDF objects out of 1440 (max. 8388607)
- 1163 compressed objects within 12 object streams
- 703 named destinations out of 1000 (max. 500000)
+ 1301 PDF objects out of 1440 (max. 8388607)
+ 1214 compressed objects within 13 object streams
+ 704 named destinations out of 1000 (max. 500000)
  540 words of extra memory for PDF output out of 10000 (max. 10000000)
 
