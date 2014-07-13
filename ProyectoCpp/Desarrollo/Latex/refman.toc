@@ -1,0 +1,34 @@
+\contentsline {chapter}{\numberline {1}\discretionary {-}{}{}Class \discretionary {-}{}{}Index}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}\discretionary {-}{}{}Class \discretionary {-}{}{}Hierarchy}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}\discretionary {-}{}{}Class \discretionary {-}{}{}Index}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}\discretionary {-}{}{}Class \discretionary {-}{}{}List}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}\discretionary {-}{}{}Class \discretionary {-}{}{}Documentation}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}\discretionary {-}{}{}Head \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{5}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{6}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{6}{subsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.2.1}get\discretionary {-}{}{}Head\discretionary {-}{}{}Pitch}{6}{subsubsection.3.1.2.1}
+\contentsline {section}{\numberline {3.2}\discretionary {-}{}{}Joint \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{6}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{7}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{7}{subsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2.1}angle}{7}{subsubsection.3.2.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2.2}generate\discretionary {-}{}{}Reference}{7}{subsubsection.3.2.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2.3}get\discretionary {-}{}{}Angle}{7}{subsubsection.3.2.2.3}
+\contentsline {subsubsection}{\numberline {3.2.2.4}get\discretionary {-}{}{}Normal\discretionary {-}{}{}Vector}{8}{subsubsection.3.2.2.4}
+\contentsline {subsubsection}{\numberline {3.2.2.5}get\discretionary {-}{}{}Proyection}{8}{subsubsection.3.2.2.5}
+\contentsline {subsubsection}{\numberline {3.2.2.6}get\discretionary {-}{}{}Proyection\discretionary {-}{}{}Vector}{8}{subsubsection.3.2.2.6}
+\contentsline {subsubsection}{\numberline {3.2.2.7}length}{9}{subsubsection.3.2.2.7}
+\contentsline {section}{\numberline {3.3}\discretionary {-}{}{}L\discretionary {-}{}{}Arm \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{9}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{10}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{10}{subsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.2.1}get\discretionary {-}{}{}Elbow\discretionary {-}{}{}Roll}{10}{subsubsection.3.3.2.1}
+\contentsline {subsubsection}{\numberline {3.3.2.2}get\discretionary {-}{}{}Elbow\discretionary {-}{}{}Yaw}{10}{subsubsection.3.3.2.2}
+\contentsline {section}{\numberline {3.4}\discretionary {-}{}{}L\discretionary {-}{}{}Leg \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{10}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{11}{subsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.1.1}get\discretionary {-}{}{}Hip\discretionary {-}{}{}Roll}{11}{subsubsection.3.4.1.1}
+\contentsline {section}{\numberline {3.5}\discretionary {-}{}{}R\discretionary {-}{}{}Arm \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{11}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{12}{subsection.3.5.1}
+\contentsline {subsubsection}{\numberline {3.5.1.1}get\discretionary {-}{}{}Elbow\discretionary {-}{}{}Roll}{12}{subsubsection.3.5.1.1}
+\contentsline {section}{\numberline {3.6}\discretionary {-}{}{}R\discretionary {-}{}{}Leg \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{12}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{13}{subsection.3.6.1}
+\contentsline {subsubsection}{\numberline {3.6.1.1}get\discretionary {-}{}{}Hip\discretionary {-}{}{}Roll}{13}{subsubsection.3.6.1.1}
+\contentsline {section}{\numberline {3.7}\discretionary {-}{}{}Xn\discretionary {-}{}{}Reference\discretionary {-}{}{}Axis \discretionary {-}{}{}Struct \discretionary {-}{}{}Reference}{13}{section.3.7}

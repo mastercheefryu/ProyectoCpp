@@ -1,0 +1,158 @@
+\hypertarget{class_joint}{\section{Joint Class Reference}
+\label{class_joint}\index{Joint@{Joint}}
+}
+
+
+Aqui se describe la clase base \char`\"{}\-Joint\char`\"{}.  
+
+
+
+
+{\ttfamily \#include $<$joint.\-h$>$}
+
+Inheritance diagram for Joint\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_joint}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_joint_a79a7a4715b2166714e039d7c7c5ea3b4}{\hyperlink{class_joint_a79a7a4715b2166714e039d7c7c5ea3b4}{Joint} ()}\label{class_joint_a79a7a4715b2166714e039d7c7c5ea3b4}
+
+\begin{DoxyCompactList}\small\item\em Esta es la decralarion de la funcionalidad de la clase base \char`\"{}\-Joint\char`\"{}, de aqui se deriban las demas. \end{DoxyCompactList}\item 
+\hypertarget{class_joint_ac9749eeeac49e9861554f2d580cc020d}{virtual \hyperlink{class_joint_ac9749eeeac49e9861554f2d580cc020d}{$\sim$\-Joint} (void)}\label{class_joint_ac9749eeeac49e9861554f2d580cc020d}
+
+\begin{DoxyCompactList}\small\item\em Constructor del Objeto. \end{DoxyCompactList}\item 
+virtual float \hyperlink{class_joint_a1b4c78e285a1d96bbde889d4979828fa}{length} (float\mbox{[}3\mbox{]}, float\mbox{[}3\mbox{]})
+\begin{DoxyCompactList}\small\item\em Destructor del Objeto. \end{DoxyCompactList}\item 
+virtual float \hyperlink{class_joint_ab4a853045a69e77e8b67d195be145eed}{angle} (float, float, float)
+\item 
+virtual float \hyperlink{class_joint_a52f2f6003f4cff059847d959488622a1}{get\-Angle} (Xn\-Vector3\-D, Xn\-Vector3\-D, Xn\-Vector3\-D)
+\begin{DoxyCompactList}\small\item\em L1,L2,L3(\-L3 es el opuesto del angulo a determinar) \end{DoxyCompactList}\item 
+virtual Xn\-Vector3\-D \hyperlink{class_joint_ac59f570adbaf039bbe0f4173e5e7e2ce}{get\-Normal\-Vector} (Xn\-Vector3\-D, Xn\-Vector3\-D, Xn\-Vector3\-D)
+\begin{DoxyCompactList}\small\item\em Genera el vector resultante de realizar el producto cruz entre los 2 vectores coplanares. \end{DoxyCompactList}\item 
+virtual Xn\-Vector3\-D \hyperlink{class_joint_af5590ba3d5bfc4e27a43036a1d394629}{get\-Proyection\-Vector} (Xn\-Vector3\-D, Xn\-Vector3\-D)
+\begin{DoxyCompactList}\small\item\em Obtiene el vector resultante de proyectar un vector sobre otro. \end{DoxyCompactList}\item 
+virtual Xn\-Float \hyperlink{class_joint_a06ed69732a17f61fa6ce9fa5ba2541ea}{get\-Proyection} (Xn\-Vector3\-D Vector1, Xn\-Vector3\-D Vector2)
+\begin{DoxyCompactList}\small\item\em Obtiene la constante de la proyeccion. \end{DoxyCompactList}\item 
+virtual \hyperlink{struct_xn_reference_axis}{Xn\-Reference\-Axis} \hyperlink{class_joint_a603eab4701f005bc6a39911897eb6c7d}{generate\-Reference} (Xn\-Vector3\-D, Xn\-Vector3\-D, Xn\-Vector3\-D)
+\begin{DoxyCompactList}\small\item\em Construye un nuevo eje de coordenadas a partir de 3 vectores otrtogonales. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Aqui se describe la clase base \char`\"{}\-Joint\char`\"{}. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_joint_ab4a853045a69e77e8b67d195be145eed}{\index{Joint@{Joint}!angle@{angle}}
+\index{angle@{angle}!Joint@{Joint}}
+\subsubsection[{angle}]{\setlength{\rightskip}{0pt plus 5cm}float Joint\-::angle (
+\begin{DoxyParamCaption}
+\item[{float}]{R\-L1, }
+\item[{float}]{R\-L2, }
+\item[{float}]{I\-M\-L3}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_joint_ab4a853045a69e77e8b67d195be145eed}
+P1\mbox{[}3\mbox{]},P2\mbox{[}3\mbox{]} Determina el angulo entre 3 puntos dadas las 3 lineas descritas por estos puntos El angulo a determinar viene dado por la linea imaginaria que esta opuesta a este angulo I\-M\-L3 es el segmento contrario al angulo por determinar, el cual no existe, es I\-Maginario \hypertarget{class_joint_a603eab4701f005bc6a39911897eb6c7d}{\index{Joint@{Joint}!generate\-Reference@{generate\-Reference}}
+\index{generate\-Reference@{generate\-Reference}!Joint@{Joint}}
+\subsubsection[{generate\-Reference}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Xn\-Reference\-Axis} Joint\-::generate\-Reference (
+\begin{DoxyParamCaption}
+\item[{Xn\-Vector3\-D}]{J1, }
+\item[{Xn\-Vector3\-D}]{J2, }
+\item[{Xn\-Vector3\-D}]{J3}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_joint_a603eab4701f005bc6a39911897eb6c7d}
+
+
+Construye un nuevo eje de coordenadas a partir de 3 vectores otrtogonales. 
+
+Este método genera un nuevo eje de referencia centrado en un \hyperlink{class_joint}{Joint}. Point\-Normal1 es un nuevo \hyperlink{class_joint}{Joint} para calcular una de las normales que será parte del marco de referencia
+
+Utilizamos el struct \hyperlink{struct_xn_reference_axis}{Xn\-Reference\-Axis} definido previamente para almacenar el nuevo marco de referencia \hypertarget{class_joint_a52f2f6003f4cff059847d959488622a1}{\index{Joint@{Joint}!get\-Angle@{get\-Angle}}
+\index{get\-Angle@{get\-Angle}!Joint@{Joint}}
+\subsubsection[{get\-Angle}]{\setlength{\rightskip}{0pt plus 5cm}float Joint\-::get\-Angle (
+\begin{DoxyParamCaption}
+\item[{Xn\-Vector3\-D}]{J1, }
+\item[{Xn\-Vector3\-D}]{J2, }
+\item[{Xn\-Vector3\-D}]{J3}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_joint_a52f2f6003f4cff059847d959488622a1}
+
+
+L1,L2,L3(\-L3 es el opuesto del angulo a determinar) 
+
+J2 es la articulacion a la que se va a sacar el angulo.
+
+Aunque se podria, no se crea una funcion get\-Angle aqui porque se necesitan pasar los parametros que usa el kinect para cada una de las posiciones, lo que se quiere es simplemente decir head.\-get\-Angle y que se obtenga el de la cabeza. Se pordria hacer, pero inicializando todos los joints y que se esten actualizando en tiempo real en la clasd \hyperlink{class_joint}{Joint}, para luego simplemente llamarlos desde las respectivas subclases igualando el valor actual del \hyperlink{class_joint}{Joint} en x,y,z a mi variable dentro de la subclase, luego como el objeto es de tipo \hyperlink{class_head}{Head}, entonces el automaticamente sabe que las variables que debe pasar son las corerspondientes a los puntos que describen el angulo del cuello. Por ahora queda como mejora Determina directamente el angulo que hay en el segundo vector Se toman los tres vectores y se determina la distancia entre ellos, donde Imag3 es la distancia opuesta el J2 \hypertarget{class_joint_ac59f570adbaf039bbe0f4173e5e7e2ce}{\index{Joint@{Joint}!get\-Normal\-Vector@{get\-Normal\-Vector}}
+\index{get\-Normal\-Vector@{get\-Normal\-Vector}!Joint@{Joint}}
+\subsubsection[{get\-Normal\-Vector}]{\setlength{\rightskip}{0pt plus 5cm}Xn\-Vector3\-D Joint\-::get\-Normal\-Vector (
+\begin{DoxyParamCaption}
+\item[{Xn\-Vector3\-D}]{J1, }
+\item[{Xn\-Vector3\-D}]{J2, }
+\item[{Xn\-Vector3\-D}]{J3}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_joint_ac59f570adbaf039bbe0f4173e5e7e2ce}
+
+
+Genera el vector resultante de realizar el producto cruz entre los 2 vectores coplanares. 
+
+J2 es el punto de unión de los vectores J2-\/$>$J1 y J2-\/$>$J3, a los cuales se les sacará el vector normal. Generamos 2 vectores a partir de los cuales calcularemos el producto cruz, Vector1 X Vector2 = Vector\-Normal
+
+Para Vector1 = J2-\/$>$J1
+
+Para Vector2 = J2-\/$>$J3
+
+Generamos el vector ortogonal Vector\-Normal \hypertarget{class_joint_a06ed69732a17f61fa6ce9fa5ba2541ea}{\index{Joint@{Joint}!get\-Proyection@{get\-Proyection}}
+\index{get\-Proyection@{get\-Proyection}!Joint@{Joint}}
+\subsubsection[{get\-Proyection}]{\setlength{\rightskip}{0pt plus 5cm}Xn\-Float Joint\-::get\-Proyection (
+\begin{DoxyParamCaption}
+\item[{Xn\-Vector3\-D}]{Vector1, }
+\item[{Xn\-Vector3\-D}]{Vector2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_joint_a06ed69732a17f61fa6ce9fa5ba2541ea}
+
+
+Obtiene la constante de la proyeccion. 
+
+Calculamos la proyección del Vector1 sobre el Vector2. Generamos el vector en el cual se va a guardar la proyección resultante
+
+Calculamos el producto punto entre Vector1 y Vector2
+
+Calculamos la norma del Vector2
+
+Ahora calculamos la constante que multiplica al vector sobre el cual estamos proyectando para generar el nuevo vector proyección \hypertarget{class_joint_af5590ba3d5bfc4e27a43036a1d394629}{\index{Joint@{Joint}!get\-Proyection\-Vector@{get\-Proyection\-Vector}}
+\index{get\-Proyection\-Vector@{get\-Proyection\-Vector}!Joint@{Joint}}
+\subsubsection[{get\-Proyection\-Vector}]{\setlength{\rightskip}{0pt plus 5cm}Xn\-Vector3\-D Joint\-::get\-Proyection\-Vector (
+\begin{DoxyParamCaption}
+\item[{Xn\-Vector3\-D}]{Vector1, }
+\item[{Xn\-Vector3\-D}]{Vector2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_joint_af5590ba3d5bfc4e27a43036a1d394629}
+
+
+Obtiene el vector resultante de proyectar un vector sobre otro. 
+
+Calculamos la proyección del Vector1 sobre el Vector2. Generamos el vector en el cual se va a guardar la proyección resultante
+
+Calculamos el producto punto entre Vector1 y Vector2
+
+Calculamos la norma del Vector2 \hypertarget{class_joint_a1b4c78e285a1d96bbde889d4979828fa}{\index{Joint@{Joint}!length@{length}}
+\index{length@{length}!Joint@{Joint}}
+\subsubsection[{length}]{\setlength{\rightskip}{0pt plus 5cm}float Joint\-::length (
+\begin{DoxyParamCaption}
+\item[{float}]{p1\mbox{[}3\mbox{]}, }
+\item[{float}]{p2\mbox{[}3\mbox{]}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_joint_a1b4c78e285a1d96bbde889d4979828fa}
+
+
+Destructor del Objeto. 
+
+Determina el vector que va de P1 a P2 Determina el vector que va de P1 a P2 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/daniel/\-U\-C\-R/\-Ey\-A\-Team/kinect/\-Open\-N\-I\-\_\-\-N\-I\-T\-E\-\_\-\-Installer-\/\-Linux64-\/0.\-27/\-Open\-N\-I-\/\-Bin-\/\-Dev-\/\-Linux-\/x64-\/v1.\-5.\-4.\-0/\-Samples/\-Ni\-Simple\-Skeleton/kinao/joint.\-h\item 
+/home/daniel/\-U\-C\-R/\-Ey\-A\-Team/kinect/\-Open\-N\-I\-\_\-\-N\-I\-T\-E\-\_\-\-Installer-\/\-Linux64-\/0.\-27/\-Open\-N\-I-\/\-Bin-\/\-Dev-\/\-Linux-\/x64-\/v1.\-5.\-4.\-0/\-Samples/\-Ni\-Simple\-Skeleton/kinao/joint.\-cpp\item 
+/home/daniel/\-U\-C\-R/\-Ey\-A\-Team/kinect/\-Open\-N\-I\-\_\-\-N\-I\-T\-E\-\_\-\-Installer-\/\-Linux64-\/0.\-27/\-Open\-N\-I-\/\-Bin-\/\-Dev-\/\-Linux-\/x64-\/v1.\-5.\-4.\-0/\-Samples/\-Ni\-Simple\-Skeleton/kinao/normal.\-cpp\end{DoxyCompactItemize}

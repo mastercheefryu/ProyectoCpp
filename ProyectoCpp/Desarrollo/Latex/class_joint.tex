@@ -1,0 +1,152 @@
+\hypertarget{class_joint}{\section{\-Referencia de \-Clase \-Joint}
+\label{class_joint}\index{\-Joint@{\-Joint}}
+}
+
+
+\-En esta sección, se describe la clase base \char`\"{}\-Joint\char`\"{}.  
+
+
+
+
+{\ttfamily \#include $<$joint.\-h$>$}
+
+\-Diagrama de herencia para \-Joint\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_joint}
+\end{center}
+\end{figure}
+\subsection*{\-Funciones \-Miembro \-Públicas}
+
+\-Esta es la declaración de la funcionalidad de la clase base \char`\"{}\-Joint\char`\"{}, de aqui se deriban las demas.
+
+\begin{itemize}
+\item 
+\hypertarget{class_joint_a79a7a4715b2166714e039d7c7c5ea3b4}{\hyperlink{class_joint_a79a7a4715b2166714e039d7c7c5ea3b4}{\-Joint} ()}\label{class_joint_a79a7a4715b2166714e039d7c7c5ea3b4}
+
+\begin{itemize}\small\item\em \-Constructor de la clase \char`\"{}\-Joint\char`\"{}. \end{itemize}\item 
+\hypertarget{class_joint_ac9749eeeac49e9861554f2d580cc020d}{virtual \hyperlink{class_joint_ac9749eeeac49e9861554f2d580cc020d}{$\sim$\-Joint} (void)}\label{class_joint_ac9749eeeac49e9861554f2d580cc020d}
+
+\begin{itemize}\small\item\em \-Destructor del \-Objeto. \end{itemize}\item 
+virtual float \hyperlink{class_joint_a1b4c78e285a1d96bbde889d4979828fa}{length} (float\mbox{[}3\mbox{]}, float\mbox{[}3\mbox{]})
+\begin{itemize}\small\item\em \- Genera un valor, que es la longitud entre 2 puntos en el espacio dados.
+
+\end{itemize}
+\item virtual float \hyperlink{class_joint_ab4a853045a69e77e8b67d195be145eed}{angle} (float, float, float)
+\item 
+virtual float \hyperlink{class_joint_a52f2f6003f4cff059847d959488622a1}{get\-Angle} (\-Xn\-Vector3\-D, \-Xn\-Vector3\-D, \-Xn\-Vector3\-D)
+\begin{itemize}\small\item\em \-L1,\-L2,\-L3(\-L3 es el opuesto del angulo a determinar) \end{itemize}\item 
+virtual \-Xn\-Vector3\-D \hyperlink{class_joint_ac59f570adbaf039bbe0f4173e5e7e2ce}{get\-Normal\-Vector} (\-Xn\-Vector3\-D, \-Xn\-Vector3\-D, \-Xn\-Vector3\-D)
+\begin{itemize}\small\item\em \-Genera el vector resultante de realizar el producto cruz entre los 2 vectores coplanares. \end{itemize}\item 
+virtual \-Xn\-Vector3\-D \hyperlink{class_joint_af5590ba3d5bfc4e27a43036a1d394629}{get\-Proyection\-Vector} (\-Xn\-Vector3\-D, \-Xn\-Vector3\-D)
+\begin{itemize}\small\item\em \-Obtiene el vector resultante de proyectar un vector sobre otro. \end{itemize}\item 
+virtual \-Xn\-Float \hyperlink{class_joint_a06ed69732a17f61fa6ce9fa5ba2541ea}{get\-Proyection} (\-Xn\-Vector3\-D \-Vector1, \-Xn\-Vector3\-D \-Vector2)
+\begin{itemize}\small\item\em \-Obtiene la constante de la proyección. \end{itemize}\item 
+virtual \hyperlink{struct_xn_reference_axis}{\-Xn\-Reference\-Axis} \hyperlink{class_joint_a603eab4701f005bc6a39911897eb6c7d}{generate\-Reference} (\-Xn\-Vector3\-D, \-Xn\-Vector3\-D, \-Xn\-Vector3\-D)
+\begin{itemize}\small\item\em \-Construye un nuevo eje de coordenadas a partir de 3 vectores ortogonales. \end{itemize}\end{itemize}
+
+
+\subsection{\-Descripción \-Detallada}
+\-Aqui se describe la clase base \char`\"{}\-Joint\char`\"{}. En esta clase  se obtienen del kinect las posiciones de los joints para generar el esqueleto del cuerpo detectado. Además se implementan las funciones de álgebra lineal necesarias para poder generar vectores a partir de los joints, generar ejes de referencia nuevos y poder así generar los ángulos de rotación pitch, roll y yaw, para su  posterior procesamiento y trnasmisión. 
+
+\subsection{\-Documentación de \-Función \-Miembro}
+\hypertarget{class_joint_ab4a853045a69e77e8b67d195be145eed}{\index{\-Joint@{\-Joint}!angle@{angle}}
+\index{angle@{angle}!Joint@{\-Joint}}
+\subsubsection[{angle}]{\setlength{\rightskip}{0pt plus 5cm}float {\bf \-Joint\-::angle} (
+[{float}]{\-R\-L1, }
+[{float}]{\-R\-L2, }
+[{float}]{\-I\-M\-L3}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}\label{class_joint_ab4a853045a69e77e8b67d195be145eed}
+\-Determina el ángulo entre 3 puntos dadas las 3 líneas descritas por estos puntos, en este casp RL1, RL2 y IML3. \-El ángulo a determinar viene dado por la línea imaginaria que esta opuesta a este ángulo. Dado que el ángulo que se quiere obtener es el de un joint, este método implica crear una línea imaginaria ya que no describe ninguna longitud de alguna parte del cuerpo,\-I\-M\-L3 es este segmento contrario al ángulo por determinar.\\
+
+Para esto se utiliza la ley de cosenos. Utilizando la nomenclatura de esta clase, se describe a continuación la fórmula:
+
+\begin{equation}
+\gamma= arccos\frac{RL1^{2}+RL2^{2}-IML1^{2}}{2*RL1*RL2} 
+\end{equation}
+
+ \hypertarget{class_joint_a603eab4701f005bc6a39911897eb6c7d}{\index{\-Joint@{\-Joint}!generate\-Reference@{generate\-Reference}}
+\index{generate\-Reference@{generate\-Reference}!Joint@{\-Joint}}
+\subsubsection[{generate\-Reference}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Xn\-Reference\-Axis} {\bf \-Joint\-::generate\-Reference} (
+[{\-Xn\-Vector3\-D}]{\-J1, }
+[{\-Xn\-Vector3\-D}]{\-J2, }
+[{\-Xn\-Vector3\-D}]{\-J3}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}\label{class_joint_a603eab4701f005bc6a39911897eb6c7d}
+
+
+\-Construye un nuevo eje de coordenadas a partir de 3 vectores ortogonales. 
+
+\-Este método genera un nuevo eje de referencia centrado en un \hyperlink{class_joint}{\-Joint}. \-Point\-Normal1 es un nuevo \hyperlink{class_joint}{\-Joint} para calcular una de las normales que será parte del marco de referencia.
+
+\-Utilizamos el ''struct'' \hyperlink{struct_xn_reference_axis}{\-Xn\-Reference\-Axis} definido previamente para almacenar el nuevo marco de referencia \hypertarget{class_joint_a52f2f6003f4cff059847d959488622a1}{\index{\-Joint@{\-Joint}!get\-Angle@{get\-Angle}}
+\index{get\-Angle@{get\-Angle}!Joint@{\-Joint}}
+\subsubsection[{get\-Angle}]{\setlength{\rightskip}{0pt plus 5cm}float {\bf \-Joint\-::get\-Angle} (
+[{\-Xn\-Vector3\-D}]{\-J1, }
+[{\-Xn\-Vector3\-D}]{\-J2, }
+[{\-Xn\-Vector3\-D}]{\-J3}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}\label{class_joint_a52f2f6003f4cff059847d959488622a1}
+
+\-Aunque se podría, no se crea una función get\-Angle aquí porque se necesitan pasar los parámetros que usa el kinect para cada una de las posiciones, lo que se quiere es simplemente decir head.\-get\-Angle y que se obtenga el de la cabeza. \-Se podría hacer, pero inicializando todos los joints y que se estén actualizando en tiempo real en la clase \hyperlink{class_joint}{\-Joint}, para luego simplemente llamarlos desde las respectivas subclases igualando el valor actual del \hyperlink{class_joint}{\-Joint} en x,y,z a mi variable dentro de la subclase, luego como el objeto es de tipo \hyperlink{class_head}{\-Head}, entonces el automaticamente sabe que las variables que debe pasar son las correspondientes a los puntos que describen el ángulo del cuello. \-Por ahora queda como mejora. \-Determina directamente el angulo que hay en el segundo vector \-Se toman los tres vectores y se determina la distancia entre ellos, donde \-Imag3 es la distancia opuesta el \-J2 \hypertarget{class_joint_ac59f570adbaf039bbe0f4173e5e7e2ce}{\index{\-Joint@{\-Joint}!get\-Normal\-Vector@{get\-Normal\-Vector}}
+\index{get\-Normal\-Vector@{get\-Normal\-Vector}!Joint@{\-Joint}}
+\subsubsection[{get\-Normal\-Vector}]{\setlength{\rightskip}{0pt plus 5cm}\-Xn\-Vector3\-D {\bf \-Joint\-::get\-Normal\-Vector} (
+[{\-Xn\-Vector3\-D}]{\-J1, }
+[{\-Xn\-Vector3\-D}]{\-J2, }
+[{\-Xn\-Vector3\-D}]{\-J3}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}\label{class_joint_ac59f570adbaf039bbe0f4173e5e7e2ce}
+
+
+\-Genera el vector resultante de realizar el producto cruz entre los 2 vectores coplanares. 
+
+\-J2 es el punto de unión de los vectores \-J2-\/$>$\-J1 y \-J2-\/$>$\-J3, a los cuales se les sacará el vector normal. \-Generamos 2 vectores a partir de los cuales calcularemos el producto cruz, \-Vector1 \-X \-Vector2 = \-Vector\-Normal.
+
+\-Para \-Vector1 = \-J2-\/$>$\-J1.
+
+\-Para \-Vector2 = \-J2-\/$>$\-J3.
+
+\-Generamos el vector ortogonal \-Vector\-Normal \hypertarget{class_joint_a06ed69732a17f61fa6ce9fa5ba2541ea}{\index{\-Joint@{\-Joint}!get\-Proyection@{get\-Proyection}}
+\index{get\-Proyection@{get\-Proyection}!Joint@{\-Joint}}
+\subsubsection[{get\-Proyection}]{\setlength{\rightskip}{0pt plus 5cm}\-Xn\-Float {\bf \-Joint\-::get\-Proyection} (
+[{\-Xn\-Vector3\-D}]{\-Vector1, }
+[{\-Xn\-Vector3\-D}]{\-Vector2}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}\label{class_joint_a06ed69732a17f61fa6ce9fa5ba2541ea}
+
+
+\-Obtiene la constante de la proyección. 
+
+\-Calculamos la proyección del \-Vector1 sobre el \-Vector2. \-Generamos el vector en el cual se va a guardar la proyección resultante
+
+\-Calculamos el producto punto entre \-Vector1 y \-Vector2
+
+\-Calculamos la norma del \-Vector2.
+
+\-Ahora calculamos la constante que multiplica al vector sobre el cual estamos proyectando para generar el nuevo vector proyección \hypertarget{class_joint_af5590ba3d5bfc4e27a43036a1d394629}{\index{\-Joint@{\-Joint}!get\-Proyection\-Vector@{get\-Proyection\-Vector}}
+\index{get\-Proyection\-Vector@{get\-Proyection\-Vector}!Joint@{\-Joint}}
+\subsubsection[{get\-Proyection\-Vector}]{\setlength{\rightskip}{0pt plus 5cm}\-Xn\-Vector3\-D {\bf \-Joint\-::get\-Proyection\-Vector} (
+[{\-Xn\-Vector3\-D}]{\-Vector1, }
+[{\-Xn\-Vector3\-D}]{\-Vector2}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}\label{class_joint_af5590ba3d5bfc4e27a43036a1d394629}
+
+
+\-Se obtiene el vector resultante de proyectar un vector sobre otro. 
+
+\-Se calcula la proyección del \-Vector1 sobre el \-Vector2. \-Se genera el vector en el cual se va a guardar la proyección resultante
+
+\-Se calcula el producto punto entre \-Vector1 y \-Vector2
+
+\-Se calcula la norma del \-Vector2 \hypertarget{class_joint_a1b4c78e285a1d96bbde889d4979828fa}{\index{\-Joint@{\-Joint}!length@{length}}
+\index{length@{length}!Joint@{\-Joint}}
+\subsubsection[{length}]{\setlength{\rightskip}{0pt plus 5cm}float {\bf \-Joint\-::length} (
+[{float}]{p1\mbox{[}3\mbox{]}, }
+[{float}]{p2\mbox{[}3\mbox{]}}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}\label{class_joint_a1b4c78e285a1d96bbde889d4979828fa}
+
+
+\-A partir de 2 puntos en el espacio, con coordenadas X,Y,Z, se obtiene la longitud de éstos, a partir de la ecuación para la obtención de la magnitud de un vector, de la siguiente forma:
+\begin{equation}
+l=\sqrt{\left ( x_{2}- x_{1} \right )^{2}+\left ( y_{2}- y_{1} \right )^{2}+\left ( z_{2}- z_{1} \right )^{2}}
+\end{equation}
+
+\-La documentación para esta clase fue generada apartir de los archivos\-:\begin{itemize}
+\item 
+joint.\-h\item 
+joint.\-cpp\end{itemize}

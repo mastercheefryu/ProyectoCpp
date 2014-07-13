@@ -1,0 +1,85 @@
+\hypertarget{class_l_arm}{\section{L\-Arm Class Reference}
+\label{class_l_arm}\index{L\-Arm@{L\-Arm}}
+}
+
+
+Esta es la clase que describe el comportamiento para los brazos.  
+
+
+
+
+{\ttfamily \#include $<$joint.\-h$>$}
+
+Inheritance diagram for L\-Arm\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_l_arm}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual float \hyperlink{class_l_arm_aca3aa8c68dedd1c7fb1e0ed9ba55b239}{get\-Elbow\-Roll} (Xn\-User\-I\-D, xn\-::\-User\-Generator)
+\begin{DoxyCompactList}\small\item\em Obtiene el angulo que se determina a partir del kinect del codo. \end{DoxyCompactList}\item 
+\hypertarget{class_l_arm_a19580475d6f1d5ae421a419a090f835e}{virtual float \hyperlink{class_l_arm_a19580475d6f1d5ae421a419a090f835e}{set\-Elbow\-Roll} (float, float \&, float \&)}\label{class_l_arm_a19580475d6f1d5ae421a419a090f835e}
+
+\begin{DoxyCompactList}\small\item\em Genera el angulo necesario para mover el N\-A\-O. \end{DoxyCompactList}\item 
+\hypertarget{class_l_arm_a25b46c7a95c135f5020800b78a28d24a}{virtual float \hyperlink{class_l_arm_a25b46c7a95c135f5020800b78a28d24a}{get\-Shoulder\-Roll} (Xn\-User\-I\-D, xn\-::\-User\-Generator)}\label{class_l_arm_a25b46c7a95c135f5020800b78a28d24a}
+
+\begin{DoxyCompactList}\small\item\em Obtiene el angulo que se determina a partir del kinect del hombro. \end{DoxyCompactList}\item 
+\hypertarget{class_l_arm_ada7589a6dabadd906736f76e9d71d9c5}{virtual float \hyperlink{class_l_arm_ada7589a6dabadd906736f76e9d71d9c5}{set\-Shoulder\-Roll} (float, float \&, float \&)}\label{class_l_arm_ada7589a6dabadd906736f76e9d71d9c5}
+
+\begin{DoxyCompactList}\small\item\em Genera el angulo necesario para mover el N\-A\-O. \end{DoxyCompactList}\item 
+virtual float \hyperlink{class_l_arm_a45c25b7614431e4a3e39bfcf977a3de7}{get\-Elbow\-Yaw} (Xn\-User\-I\-D, xn\-::\-User\-Generator)
+\item 
+\hypertarget{class_l_arm_a536c8e6957dfc9e2b8a9d3c0ee3b8f52}{virtual float {\bfseries set\-Elbow\-Yaw} (float, float \&, float \&)}\label{class_l_arm_a536c8e6957dfc9e2b8a9d3c0ee3b8f52}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Esta es la clase que describe el comportamiento para los brazos. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_l_arm_aca3aa8c68dedd1c7fb1e0ed9ba55b239}{\index{L\-Arm@{L\-Arm}!get\-Elbow\-Roll@{get\-Elbow\-Roll}}
+\index{get\-Elbow\-Roll@{get\-Elbow\-Roll}!LArm@{L\-Arm}}
+\subsubsection[{get\-Elbow\-Roll}]{\setlength{\rightskip}{0pt plus 5cm}float L\-Arm\-::get\-Elbow\-Roll (
+\begin{DoxyParamCaption}
+\item[{Xn\-User\-I\-D}]{user, }
+\item[{xn\-::\-User\-Generator}]{guser}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_l_arm_aca3aa8c68dedd1c7fb1e0ed9ba55b239}
+
+
+Obtiene el angulo que se determina a partir del kinect del codo. 
+
+Obtiene el angulo real dado por el kinect del movimiento del codo. \hypertarget{class_l_arm_a45c25b7614431e4a3e39bfcf977a3de7}{\index{L\-Arm@{L\-Arm}!get\-Elbow\-Yaw@{get\-Elbow\-Yaw}}
+\index{get\-Elbow\-Yaw@{get\-Elbow\-Yaw}!LArm@{L\-Arm}}
+\subsubsection[{get\-Elbow\-Yaw}]{\setlength{\rightskip}{0pt plus 5cm}float L\-Arm\-::get\-Elbow\-Yaw (
+\begin{DoxyParamCaption}
+\item[{Xn\-User\-I\-D}]{user, }
+\item[{xn\-::\-User\-Generator}]{guser}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_l_arm_a45c25b7614431e4a3e39bfcf977a3de7}
+Marco de referencia en un momento anterior con punto central sobre el codo
+
+Obtenemos el vector el\-To\-Hand (codo -\/$>$ mano)
+
+Obtenemos la proyeccion del vector el\-To\-Hand sobre el eje Z de la referencia en el codo
+
+Obtenemos el punto imaginario
+
+Obtenemos la proyeccion sobre el plano X\-Y, para ello obtenemos se forma entre la proyeccion y el vector el\-To\-Hand
+
+Obtenemos primer punto que es la proyeccion de la mano sobre el plano X\-Y
+
+Obtenemos el segundo punto sobre nuestro eje Y
+
+Obtenemos el angulo entre la proyeccion entre el plano X\-Y y el eje Y
+
+Determinamos el signo del angulo para saber si rotamos el codo en sentido horario o antihorario Obtenemos la proyeccion del vector proy\-Vector\-Plane sobre el eje X de la referencia en el codo 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/daniel/\-U\-C\-R/\-Ey\-A\-Team/kinect/\-Open\-N\-I\-\_\-\-N\-I\-T\-E\-\_\-\-Installer-\/\-Linux64-\/0.\-27/\-Open\-N\-I-\/\-Bin-\/\-Dev-\/\-Linux-\/x64-\/v1.\-5.\-4.\-0/\-Samples/\-Ni\-Simple\-Skeleton/kinao/joint.\-h\item 
+/home/daniel/\-U\-C\-R/\-Ey\-A\-Team/kinect/\-Open\-N\-I\-\_\-\-N\-I\-T\-E\-\_\-\-Installer-\/\-Linux64-\/0.\-27/\-Open\-N\-I-\/\-Bin-\/\-Dev-\/\-Linux-\/x64-\/v1.\-5.\-4.\-0/\-Samples/\-Ni\-Simple\-Skeleton/kinao/larm.\-cpp\end{DoxyCompactItemize}

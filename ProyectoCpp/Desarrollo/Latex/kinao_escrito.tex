@@ -1,0 +1,238 @@
+\documentclass[letterpaper]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{makeidx}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{ifthen}
+\usepackage[table]{xcolor}
+\usepackage{textcomp}
+\usepackage{alltt}
+\usepackage{ifpdf}
+\ifpdf
+\usepackage[pdftex,
+            pagebackref=true,
+            colorlinks=true,
+            linkcolor=blue,
+            unicode
+           ]{hyperref}
+\else
+\usepackage[ps2pdf,
+            pagebackref=true,
+            colorlinks=true,
+            linkcolor=blue,
+            unicode
+           ]{hyperref}
+\usepackage{pspicture}
+\fi
+\usepackage{mathptmx}
+\usepackage{courier}
+\usepackage{sectsty}
+\usepackage[titles]{tocloft}
+%\usepackage{doxygen}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[activeacute,spanish]{babel}
+\usepackage[vmargin=4cm,tmargin=3cm,hmargin=2cm,letterpaper]{geometry}%
+\usepackage{helvet}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{verbatim}
+\usepackage{tabls}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage{url}
+\usepackage{listings}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{tikz}
+\usepackage{pgf}
+\usepackage{pgffor}
+\usepgfmodule{plot}
+\usepackage{wrapfig}
+\usetikzlibrary{arrows,decorations,snakes,backgrounds,fit,calc,through,scopes,positioning,automata,chains,er,fadings,calendar,matrix,mindmap,folding,patterns,petri,plothandlers,plotmarks,shadows,shapes,shapes.arrows,topaths,trees}
+
+\lstset{% general command to set parameter(s)
+%   basicstyle=\small,
+  % print whole listing small
+%   keywordstyle=\color{black}\bfseries\underbar,
+  % underlined bold black keywords
+%   identifierstyle=,
+  % nothing happens
+%   commentstyle=\color{white}, % white comments
+%   stringstyle=\ttfamily,
+  % typewriter type for strings
+  showstringspaces=false}
+  % no special string spaces
+
+\pagestyle{fancy}
+\color{black}
+\fancyhead{}
+\renewcommand{\headrule}{\hrule\vspace*{0.5mm}\rule{\linewidth}{0.8mm}}
+\renewcommand{\familydefault}{\sfdefault}
+
+\graphicspath{{./images/}}
+\lhead{\includegraphics[width=2cm]{logoucr.png}}
+\rhead{\includegraphics[width=3cm]{eie-text-gray-6x3cm.png}}
+\chead{UNIVERSIDAD DE COSTA RICA\\FACULTAD DE INGENIERÍA\\ESCUELA DE INGENIERÍA ELÉCTRICA\\\textbf{ESTRUCTURAS ABSTRACTAS DE DATOS Y\\ ALGORITMOS PARA INGENIERÍA}\\IE-0217\\I CICLO 2014\\PROYECTO C++}
+
+\lfoot{}%
+\cfoot{}%
+%\cfoot{\thepage\ de \pageref{LastPage}}%
+\rfoot{}%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\uic}{black} %user-input color
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\uim}{} %user-input marker
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\userinput}[1]{\textcolor{\uic}{\uim#1\uim}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}\vspace*{2cm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+\Huge
+\userinput{Body Positioning and Orientation Recognition Library KiNAO}
+\vspace*{1cm}
+\end{center}
+
+\noindent
+\small\baselineskip=14pt
+\textbf{Estudiante:}\\
+\userinput{Willy Gerardo Villalobos Marrero B17170}\\
+\userinput{Daniel Méndez Zeledón            A83911}\\
+\userinput{Javier Acosta Villalobos         A80056}\\
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introducción}
+
+Como parte del desarrollo de reconocimiento de patrones, se ha tratado de elaborar una pequeña librería la cual permitiese tomar, a partir de una cámara de Kinect, el esqueleto de una persona, mediante un algoritmo. Luego, con las posiciones X, Y, Z de cada uno de los puntos de los ligamentos del cuerpo, se podría analizar el movimiento de cada parte del cuerpo. Debido a que la cámara del Kinect permite analizar la profundidad, es, de cierta manera, sencillo analizar las posiciones, no solamente las que se muestran en el plano XY. Para este análisis, se utilizará como base la librería OpenNI que permite controlar, de manera eficaz, la cámara del Kinect, así como obtener los parámetros que el Kinect analiza.\\
+
+Ya con los valores XYZ asignados, se logra obtener los ángulos de los ligamentos del cuerpo en tiempo real a partir de la ley de cosenos, donde con 2 partes del cuerpo y una línea imaginaria, se logra determinar el ángulo respectivo para el ligamento y así obtener su valor.\\
+
+		\begin{figure}[h!]
+			\centering
+			\includegraphics[width=0.7\linewidth]{imagenes/person.png}
+			\caption{Imagen de esqueleto virtual generado mediante OpenNi}
+		\end{figure}
+
+La razón de nuestro proyecto cabe en el ámbito de las teleoperaciones. Como un nuevo paso hacia este tema, se quiere poder hacer en movimientos en tiempo real de tal forma que puedan ser transferidos a un robot y este haga trabajos en zonas de alto riesgo, por ejemplo en un edificio después de un terremoto, en el espacio, en alguna planta nuclear, donde, a pesar del precio que se paga por cada robot, no importe si se daña, pues no se estará arriesgando vidas humanas en el intento de los distintos trabajos de alto riesgo.\\
+
+		\begin{figure}[h!]
+			\centering
+			\includegraphics[width=0.4\linewidth]{imagenes/nao_and_me.jpg}
+			\caption{Fotografía de robot NAO con estudiante}
+		\end{figure}
+
+Es por eso que la librería va orientada a esto, usar los ángulos de los ligamentos para ser traspasados a los robots que actualmente se encuentran en disposicion de la Escuela de Ingeniería Eléctrica, los NAO, donde los parámetros se le pueden pasar a través de ángulos en radianes y el robot podrá imitar los movimientos que se estén haciendo en tiempo real frente a la cámara del Kinect.\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Objetivos}
+\subsection{Objetivo General}
+
+Crear una librería capaz de reconocer los movimientos de cuerpo entero a travéz de la cámara Kinect, utilizando la librería de OpenNI como base del desarrollo, con el fin de hacer que los robots NAO traten de imitar estos movimientos a partir de los parámetros determinados por la librería.
+
+\subsection{Objetivos Específicos}
+
+\begin{itemize}
+\item Crear una librería que controle el movimiento por separado de la cabeza, brazos, manos, piernas y pies, utilizando el lenguaje de programación C++, con el fin de ejercer clases para utilizar el lenguaje orientado a objetos.
+\item Utilizar la ley de cosenos como base para la obtención de los ángulos de los ligamentos del cuerpo, tomando como referencia los puntos identificados por el algoritmo de identificación de ligamentos que incluye la libreria OpenNI.
+\item Crear unas funciones para trasladar los ángulos obtenidos a los NAO para tratar de hacer que éstos se muevan en tiempo real con el movimientos que esté analizando el Kinect.
+\end{itemize}
+
+\section{Funciones agregadas}
+
+Entre las operaciones básicas de álgebra lineal que se consideraron necesarias para la implementación del KiNAO están las operaciones de producto punto y producto vectorial, identidades relacionadas con ángulos entre vectores ($\cos{\Theta}, \sen{\Theta}$), módulo de un vector, proyecciones, etc. Dichas funciones fueron agregadas al archivo "joint.cpp" y son las que se emplean para, inicialmente, generar vectores a partir de los joints, definidos cada uno como un punto con coordenadas $(X,Y,Z)$.\\ 
+
+Posterior a la obtención de dichos vectores, se realizan operaciones de producto vectorial para obtener el vector ortogonal, el cual, sumado a la obtención de proyecciones de vectores sobre uns superficie hipotética, nos permite obtener los ángulos de roll, pitch y yaw de la extremidad. Dicha información es posteriormente transformada en valores compatibles con el autómata,  en este caso un NAO.\\
+
+La idea básicamente es generar planos sobre los cuales los brazos se van a mover, de forma que sea posible entonces detectar variaciones en la rotación de las extremidades.\\
+
+A la hora de trasladar la información de ángulos a un robot, se debe tener en cuenta que, por ejemplo, lo que se  puede extender un brazo humano en grados, no es lo mismo que lo que se puede extender un NAO, por lo que se debe tener en consideración ese hecho. En este caso se plantea un condicional para que en caso de que el ángulo de rotación de una extremidad humana supere la máxima extensión del robot, simplemente se sigue restringiendo la información de manera que el automata nunca extienda sus extremidades más allá de lo que puede hacerlo físicamente.\\
+
+Un próximo paso será plantear una escala de variación de manera que no solo se consideren los valores extremos de extensión del robot, sino que se pueda realizar una calibración con la persona para que los movimientos del humano sean realizados por el robot siguiendo una escala adecuada para que la máxima extensión del humano coincida con la del robot.\\
+
+Cabe resaltar que el despliegue de información, empezando por el esqueleto, se realiza tomando como base el generador de esqueletos de OpenNI.\\
+\pagebreak
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{class_joint}
+\input{class_head}
+\input{class_l_arm}
+\input{class_l_leg}
+\input{class_r_arm}
+\input{class_r_leg}
+\input{struct_xn_reference_axis}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+		\begin{figure}[h!]
+			\centering
+			\includegraphics[width=0.55\linewidth]{imagenes/coordenadas-rotado.jpeg}
+			\caption{Eje de coordenadas rotado y trasladado en el espacio}
+		\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Conclusiones y Recomendaciones}
+Se ha analizado las adiciones realizadas al proyecto openni para lograr extraer la información de los ángulos de rotación de brazs y piernas para su posterior conversión a una escala compatible con el NAO. Para ello se agregaron funciones de álgebra lineal compatibles con los tipos de datos de  openni, y además se  agregó una nueva estructura XnReferenceAxis, el cual almacena 3 vectores  correspondientes a un nuevo eje de coordenadas. \\
+
+Ha sido posible concluir que a pesar de las ventajas del Kinect mediante Openni,  pueden llegar a existir ciertas limitaciones en cuanto a documentación (particularmente por el cierre del proyecto openni).\\
+
+Además, existe una limitación a la hora de que la persona que está siendo detectada se coloco de perfil frente al kinect, pues ya el dispositivo no lee directamente la información del otro perfil de la persona, generando datos incompletos o erroneos, o cuando se utiliza ropa holgada, la cual puede  provocar que no se detecten correctamente las rotaciones o torque de forma  adecuada. Otro detalle, el cual  está más directamente relacionado con las funciones agregadas, es la  generaciónd de datos erroneos  en ciertas posiciones, como por ejemplo los brazos completamente extendidos,  en donde algunos de los parámetros  que se emplean  en los cálculos se  indefinen.\\
+
+Dado lo anterior  se recomienda mejorar los algoritmos de detección de rotación para hacerlos más robustos ante estos  detalles, así como ampliar la capacidad de recepción de información, ya sea empleando un segundo dispositivo kinect o Asus Xtion. Además se  recomiendo migrar esta implementación a un sistema más robusto y complejo, como lo es el Motion Capture, para generar datos de forma más confiable y precisa. Es bueno intentar buscar alternativas a openni para  lograr procesar la información obtenida con el kinect.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Referencias}
+
+\begin{enumerate}
+\item Press, W., Teukolsky, W., Vetterling, W., Flannery, B. \textit{Numerical Recipes: The Art of Scietific Computing}, 3ra. Ed. Cambridge University Press, 2007
+\item Cormen, T., Leiserson, C., Rivest, R., Stein, C. \textit{Introduction To Algorithms}, 3ra. Ed. MIT Press, 2009
+\item Sedgewick, R., Wayne, K. \textit{Algorithms}, 4ta. Ed. Pearson Education, 2011
+\item Eckel, B. \textit{Thinking in C++, volume I}, 2da. Ed. Prentice Hall, 2000
+\item Referencias web: \begin{itemize}
+	\item Librería alternativa para álgebra lineal\url{http://seldon.sourceforge.net/contents.php}
+	\item Cálculo vectorial en c++\url{http://stackoverflow.com/questions/13984154/different-methods-for-finding-angle-between-two-vectors}
+	\item Documentación del  robot NAO\url{https://community.aldebaran.com/doc/1-14/index.html}
+	\item Instalación openni \url{http://igorbarbosa.com/articles/how-to-install-kin-in-linux-mint-12-ubuntu/}
+	\item \url{http://blog.jorgeivanmeza.com/2011/12/instalacion-openni-sensor-kinect-y-nite-en-gnulinux-ubuntu-11-10-desde-fuentes/}
+	
+	\end{itemize}
+\end{enumerate}
+	
+\section{Anexos: Clases implementadas}
+
+\subsection{class\_head}
+Aqui se describe la clase derivada "Head", la cual hereda sus propiedades de joint.h.
+\lstinputlisting[language=C++]{code/head.cpp}
+
+\subsection{class\_joint}
+
+\lstinputlisting[language=C++]{code/joint.cpp}
+
+\subsection{class\_l\_arm}
+\lstinputlisting[language=C++]{code/larm.cpp}
+\subsection{class\_l\_leg}
+\lstinputlisting[language=C++]{code/lleg.cpp}
+\subsection{class\_r\_arm}
+\lstinputlisting[language=C++]{code/rarm.cpp}
+\subsection{class\_r\_leg}
+\lstinputlisting[language=C++]{code/rleg.cpp}
+\subsection{struct\_xn\_reference\_axis}
+\lstinputlisting[language=C++]{code/definition.h}	
+	
+\end{document}
+

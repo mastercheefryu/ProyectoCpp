@@ -1,0 +1,50 @@
+\hypertarget{class_r_leg}{\section{\-Referencia de \-Clase \-R\-Leg}
+\label{class_r_leg}\index{\-R\-Leg@{\-R\-Leg}}
+}
+\-Inheritance diagram for \-R\-Leg\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_r_leg}
+\end{center}
+\end{figure}
+\subsection*{\-Funciones \-Miembro \-Públicas}
+\begin{itemize}
+\item 
+virtual float \hyperlink{class_r_leg_a983e8da29c577737694dc72a9573fc5c}{get\-Hip\-Roll} (\-Xn\-User\-I\-D, xn\-::\-User\-Generator)
+\begin{itemize}\small\item\em \-Obtiene el ángulo que se determina a partir del kinect de la cadera. \end{itemize}\item 
+\hypertarget{class_r_leg_a44386f31cf1afb03ab3f433a0189d820}{virtual float \hyperlink{class_r_leg_a44386f31cf1afb03ab3f433a0189d820}{set\-Hip\-Roll} (float, float \&, float \&)}\label{class_r_leg_a44386f31cf1afb03ab3f433a0189d820}
+
+\begin{itemize}\small\item\em \-Genera el ángulo necesario para mover el \-N\-A\-O. \end{itemize}\item 
+\hypertarget{class_r_leg_a1e66a29fe07ec16275f86bffe7482fee}{virtual float \hyperlink{class_r_leg_a1e66a29fe07ec16275f86bffe7482fee}{get\-Knee\-Pitch} (\-Xn\-User\-I\-D, xn\-::\-User\-Generator)}\label{class_r_leg_a1e66a29fe07ec16275f86bffe7482fee}
+
+\begin{itemize}\small\item\em \-Obtiene el ángulo que se determina a partir del kinect. \end{itemize}\item 
+\hypertarget{class_r_leg_a65c0d913ed2c07515cd178b190b4287c}{virtual float \hyperlink{class_r_leg_a65c0d913ed2c07515cd178b190b4287c}{set\-Knee\-Pitch} (float, float \&, float \&)}\label{class_r_leg_a65c0d913ed2c07515cd178b190b4287c}
+
+\begin{itemize}\small\item\em \-Genera el ángulo necesario para mover el \-N\-A\-O. \end{itemize}\item 
+\hypertarget{class_r_leg_aa8a63cd3f3d06ace1566a531b5213860}{virtual float \hyperlink{class_r_leg_aa8a63cd3f3d06ace1566a531b5213860}{get\-Ankle\-Pitch} (\-Xn\-User\-I\-D, xn\-::\-User\-Generator)}\label{class_r_leg_aa8a63cd3f3d06ace1566a531b5213860}
+
+\begin{itemize}\small\item\em \-Obtiene el ángulo que se determina a partir del kinect. \end{itemize}\item 
+\hypertarget{class_r_leg_a6ac413efc8dc05dce14096d9797f9149}{virtual float \hyperlink{class_r_leg_a6ac413efc8dc05dce14096d9797f9149}{set\-Ankle\-Pitch} (float, float \&, float \&)}\label{class_r_leg_a6ac413efc8dc05dce14096d9797f9149}
+
+\begin{itemize}\small\item\em \-Genera ángulo para mover \-N\-A\-O. \end{itemize}\end{itemize}
+
+
+\subsection{\-Descripción \-Detallada}
+\-Aqui se describe la clase derivada \char`\"{}\-LLeg\char`\"{}, la cual obtiene la información necesaria para generar y establecer los ángulos de rotación de la pierna izquierda. Implica información de cadera, rodilla y tobillo.
+
+\subsection{\-Documentación de \-Función \-Miembro}
+\hypertarget{class_r_leg_a983e8da29c577737694dc72a9573fc5c}{\index{\-R\-Leg@{\-R\-Leg}!get\-Hip\-Roll@{get\-Hip\-Roll}}
+\index{get\-Hip\-Roll@{get\-Hip\-Roll}!RLeg@{\-R\-Leg}}
+\subsubsection[{get\-Hip\-Roll}]{\setlength{\rightskip}{0pt plus 5cm}float {\bf \-R\-Leg\-::get\-Hip\-Roll} (
+[{\-Xn\-User\-I\-D}]{user, }
+[{xn\-::\-User\-Generator}]{guser}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}\label{class_r_leg_a983e8da29c577737694dc72a9573fc5c}
+
+
+\-Primero se obtienen los puntos que van a determinar el ángulo de la cadera, se toman los puntos de la cadera izqueirda, la cadera derecha y la rodilla.\\
+\-Luego, como el Kinect permite obtener la profundidad, entonces se puede determinar, llamando a las funciones creadas en Joint, determinar el ángulo. 
+
+\-La documentación para esta clase fue generada apartir de los archivos\-:\begin{itemize}
+\item 
+joint.\-h\item 
+rleg.\-cpp\end{itemize}

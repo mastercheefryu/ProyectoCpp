@@ -1,0 +1,22 @@
+\hypertarget{struct_xn_reference_axis}{\section{\-Referencia de \-Estructura \-Xn\-Reference\-Axis}
+\label{struct_xn_reference_axis}\index{\-Xn\-Reference\-Axis@{\-Xn\-Reference\-Axis}}
+}
+\subsection*{\-Atributos \-Públicos}
+\begin{itemize}
+\item 
+\hypertarget{struct_xn_reference_axis_a4ac206c12a05a55ca3b556525f53c072}{\-Xn\-Vector3\-D \hyperlink
+{struct_xn_reference_axis_a4ac206c12a05a55ca3b556525f53c072}{\-New\-X}}\label{struct_xn_reference_axis_a4ac206c12a05a55ca3b556525f53c072}
+
+\begin{itemize}\small\item\em \-Es un vector de coordenadas del nuevo eje en \-X. \end{itemize}\item 
+\item 
+\hypertarget{struct_xn_reference_axis_abe619023a45ec8a7c827f9e42aedf070}{\-Xn\-Vector3\-D \hyperlink{struct_xn_reference_axis_abe619023a45ec8a7c827f9e42aedf070}{\-New\-Y}}\label{struct_xn_reference_axis_abe619023a45ec8a7c827f9e42aedf070}
+
+\begin{itemize}\small\item\em \-Es un vector de coordenadas del nuevo eje en \-Y. \end{itemize}\item 
+\hypertarget{struct_xn_reference_axis_a149a25a6e03ea545d2e99b03a825da51}{\-Xn\-Vector3\-D \hyperlink{struct_xn_reference_axis_a149a25a6e03ea545d2e99b03a825da51}{\-New\-Z}}\label{struct_xn_reference_axis_a149a25a6e03ea545d2e99b03a825da51}
+
+\begin{itemize}\small\item\em \-Es un vector de coordenadas del nuevo eje en \-Z. \end{itemize}\end{itemize}
+
+
+\-La documentación para esta estructura fue generada apartir de los siguientes archivos\-:\begin{itemize}
+\item 
+definition.\-h\end{itemize}

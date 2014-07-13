@@ -1,0 +1,1017 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.17)  12 JUL 2014 15:34
+entering extended mode
+ %&-line parsing enabled.
+**annotated.tex class_head.tex class_joint.tex class_l_arm.tex class_l_leg.tex 
+class_r_arm.tex class_r_leg.tex hierarchy.tex kinao_escrito.tex refman.tex stru
+ct_xn_reference_axis.tex
+(./annotated.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
+ak, danish, dutch, finnish, french, basque, ngerman, german, german-x-2009-06-1
+9, ngerman-x-2009-06-19, ibycus, monogreek, greek, ancientgreek, hungarian, san
+skrit, italian, latin, latvian, lithuanian, mongolian2a, mongolian, bokmal, nyn
+orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
+, estonian, indonesian, interlingua, icelandic, kurmanji, slovenian, polish, po
+rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
+! Undefined control sequence.
+l.1 \section
+            {\-Class \-List}
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \section{\-
+               Class \-List}
+? 
+Missing character: There is no - in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no : in font nullfont!
+
+! LaTeX Error: Environment DoxyCompactList undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 ...rief descriptions\-:\begin{DoxyCompactList}
+                                                  
+? 
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--3
+[]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \item\contentsline
+                      {section}{\hyperlink{class_head}{\-Head} \\*\-Aqui se ...
+
+? 
+! Undefined control sequence.
+l.3 \item\contentsline{section}{\hyperlink
+                                          {class_head}{\-Head} \\*\-Aqui se ...
+
+? 
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.3 \item\contentsline{section}{\hyperlink{class_
+                                                 head}{\-Head} \\*\-Aqui se ...
+
+? 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 3.
+! Extra }, or forgotten $.
+l.3 ...ontentsline{section}{\hyperlink{class_head}
+                                                  {\-Head} \\*\-Aqui se desc...
+
+? 
+Missing character: There is no - in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no - in font nullfont!
+! Extra }, or forgotten $.
+l.3 ...clase derivada \char`\"{}\-Head\char`\"{} }
+                                                  {\pageref{class_head}}{}
+? 
+! Undefined control sequence.
+<write> ...eference `class_head' on page \thepage 
+                                                  \space undefined\on@line .
+l.3 ...\"{}\-Head\char`\"{} }{\pageref{class_head}
+                                                  }{}
+? 
+
+LaTeX Warning: Reference `class_head' on page  undefined on input line 3.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \item
+         \contentsline{section}{\hyperlink{class_joint}{\-Joint} \\*\-Aqui s...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \item\contentsline
+                      {section}{\hyperlink{class_joint}{\-Joint} \\*\-Aqui s...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \item\contentsline
+                      {section}{\hyperlink{class_joint}{\-Joint} \\*\-Aqui s...
+
+? 
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \item\contentsline
+                      {section}{\hyperlink{class_joint}{\-Joint} \\*\-Aqui s...
+
+? 
+! Undefined control sequence.
+l.4 \item\contentsline{section}{\hyperlink
+                                          {class_joint}{\-Joint} \\*\-Aqui s...
+
+? 
+Missing character: There is no - in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no - in font nullfont!
+! Undefined control sequence.
+<write> ...ference `class_joint' on page \thepage 
+                                                  \space undefined\on@line .
+l.4 ...{}\-Joint\char`\"{} }{\pageref{class_joint}
+                                                  }{}
+? 
+
+LaTeX Warning: Reference `class_joint' on page  undefined on input line 4.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 \item
+         \contentsline{section}{\hyperlink{class_l_arm}{\-L\-Arm} \\*\-Esta ...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.5 \item\contentsline
+                      {section}{\hyperlink{class_l_arm}{\-L\-Arm} \\*\-Esta ...
+
+? 
+
+Overfull \hbox (44.60075pt too wide) in paragraph at lines 3--5
+[]\OML/cmm/m/it/10 ead[] 
+ []
+
+
+Overfull \hbox (141.57755pt too wide) in paragraph at lines 3--5
+\OML/cmm/m/it/10 Aquisedescribelaclasederivada\OT1/cmr/m/n/10 "[]
+ []
+
+
+Overfull \hbox (290.52864pt too wide) in paragraph at lines 3--5
+\OML/cmm/m/it/10 Head\OT1/cmr/m/n/10 "[][][][][][][]$ 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 \item\contentsline
+                      {section}{\hyperlink{class_l_arm}{\-L\-Arm} \\*\-Esta ...
+
+? 
+! Undefined control sequence.
+l.5 \item\contentsline{section}{\hyperlink
+                                          {class_l_arm}{\-L\-Arm} \\*\-Esta ...
+
+? 
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.5 \item\contentsline{section}{\hyperlink{class_
+                                                 l_arm}{\-L\-Arm} \\*\-Esta ...
+
+? 
+! Double subscript.
+l.5 ...m\contentsline{section}{\hyperlink{class_l_
+                                                  arm}{\-L\-Arm} \\*\-Esta e...
+
+? 
+! Extra }, or forgotten $.
+l.5 ...ntentsline{section}{\hyperlink{class_l_arm}
+                                                  {\-L\-Arm} \\*\-Esta es la...
+
+? 
+Missing character: There is no - in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no - in font nullfont!
+! Extra }, or forgotten $.
+l.5 ...escribe el comportamiento para los brazos }
+                                                  {\pageref{class_l_arm}}{}
+? 
+! Undefined control sequence.
+<write> ...ference `class_l_arm' on page \thepage 
+                                                  \space undefined\on@line .
+l.5 ...nto para los brazos }{\pageref{class_l_arm}
+                                                  }{}
+? 
+
+LaTeX Warning: Reference `class_l_arm' on page  undefined on input line 5.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \item
+         \contentsline{section}{\hyperlink{class_l_leg}{\-L\-Leg} }{\pageref...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \item\contentsline
+                      {section}{\hyperlink{class_l_leg}{\-L\-Leg} }{\pageref...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \item\contentsline
+                      {section}{\hyperlink{class_l_leg}{\-L\-Leg} }{\pageref...
+
+? 
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \item\contentsline
+                      {section}{\hyperlink{class_l_leg}{\-L\-Leg} }{\pageref...
+
+? 
+! Undefined control sequence.
+l.6 \item\contentsline{section}{\hyperlink
+                                          {class_l_leg}{\-L\-Leg} }{\pageref...
+
+? 
+! Double subscript.
+l.6 ...m\contentsline{section}{\hyperlink{class_l_
+                                                  leg}{\-L\-Leg} }{\pageref{...
+
+? 
+Missing character: There is no - in font nullfont!
+Missing character: There is no - in font nullfont!
+! Undefined control sequence.
+<write> ...ference `class_l_leg' on page \thepage 
+                                                  \space undefined\on@line .
+l.6 ...ss_l_leg}{\-L\-Leg} }{\pageref{class_l_leg}
+                                                  }{}
+? 
+
+LaTeX Warning: Reference `class_l_leg' on page  undefined on input line 6.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 \item
+         \contentsline{section}{\hyperlink{class_r_arm}{\-R\-Arm} }{\pageref...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.7 \item\contentsline
+                      {section}{\hyperlink{class_r_arm}{\-R\-Arm} }{\pageref...
+
+? 
+
+Overfull \hbox (49.3517pt too wide) in paragraph at lines 5--7
+[][]\OML/cmm/m/it/10 rm[] 
+ []
+
+
+Overfull \hbox (358.76231pt too wide) in paragraph at lines 5--7
+\OML/cmm/m/it/10 Estaeslaclasequedescribeelcomportamientoparalosbrazos[][][][][
+][]$ 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 \item\contentsline
+                      {section}{\hyperlink{class_r_arm}{\-R\-Arm} }{\pageref...
+
+? 
+! Undefined control sequence.
+l.7 \item\contentsline{section}{\hyperlink
+                                          {class_r_arm}{\-R\-Arm} }{\pageref...
+
+? 
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.7 \item\contentsline{section}{\hyperlink{class_
+                                                 r_arm}{\-R\-Arm} }{\pageref...
+
+? 
+! Double subscript.
+l.7 ...m\contentsline{section}{\hyperlink{class_r_
+                                                  arm}{\-R\-Arm} }{\pageref{...
+
+? 
+! Extra }, or forgotten $.
+l.7 ...ntentsline{section}{\hyperlink{class_r_arm}
+                                                  {\-R\-Arm} }{\pageref{clas...
+
+? 
+Missing character: There is no - in font nullfont!
+Missing character: There is no - in font nullfont!
+! Extra }, or forgotten $.
+l.7 ...ection}{\hyperlink{class_r_arm}{\-R\-Arm} }
+                                                  {\pageref{class_r_arm}}{}
+? 
+! Undefined control sequence.
+<write> ...ference `class_r_arm' on page \thepage 
+                                                  \space undefined\on@line .
+l.7 ...ss_r_arm}{\-R\-Arm} }{\pageref{class_r_arm}
+                                                  }{}
+? 
+
+LaTeX Warning: Reference `class_r_arm' on page  undefined on input line 7.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \item
+         \contentsline{section}{\hyperlink{class_r_leg}{\-R\-Leg} }{\pageref...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \item\contentsline
+                      {section}{\hyperlink{class_r_leg}{\-R\-Leg} }{\pageref...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \item\contentsline
+                      {section}{\hyperlink{class_r_leg}{\-R\-Leg} }{\pageref...
+
+? 
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \item\contentsline
+                      {section}{\hyperlink{class_r_leg}{\-R\-Leg} }{\pageref...
+
+? 
+! Undefined control sequence.
+l.8 \item\contentsline{section}{\hyperlink
+                                          {class_r_leg}{\-R\-Leg} }{\pageref...
+
+? 
+! Double subscript.
+l.8 ...m\contentsline{section}{\hyperlink{class_r_
+                                                  leg}{\-R\-Leg} }{\pageref{...
+
+? 
+Missing character: There is no - in font nullfont!
+Missing character: There is no - in font nullfont!
+! Undefined control sequence.
+<write> ...ference `class_r_leg' on page \thepage 
+                                                  \space undefined\on@line .
+l.8 ...ss_r_leg}{\-R\-Leg} }{\pageref{class_r_leg}
+                                                  }{}
+? 
+
+LaTeX Warning: Reference `class_r_leg' on page  undefined on input line 8.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \item
+         \contentsline{section}{\hyperlink{struct_xn_reference_axis}{\-Xn\-R...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.9 \item\contentsline
+                      {section}{\hyperlink{struct_xn_reference_axis}{\-Xn\-R...
+
+? 
+
+Overfull \hbox (157.0091pt too wide) in paragraph at lines 7--9
+[][]\OML/cmm/m/it/10 rm[][][][][][][]$ 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \item\contentsline
+                      {section}{\hyperlink{struct_xn_reference_axis}{\-Xn\-R...
+
+? 
+! Undefined control sequence.
+l.9 \item\contentsline{section}{\hyperlink
+                                          {struct_xn_reference_axis}{\-Xn\-R...
+
+? 
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.9 \item\contentsline{section}{\hyperlink{struct_
+                                                  xn_reference_axis}{\-Xn\-R...
+
+? 
+! Extra }, or forgotten $.
+l.9 ...ction}{\hyperlink{struct_xn_reference_axis}
+                                                  {\-Xn\-Reference\-Axis} }{...
+
+? 
+Missing character: There is no - in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no - in font nullfont!
+! Extra }, or forgotten $.
+l.9 ...xn_reference_axis}{\-Xn\-Reference\-Axis} }
+                                                  {\pageref{struct_xn_refere...
+
+? 
+! Undefined control sequence.
+<write> ...ct_xn_reference_axis' on page \thepage 
+                                                  \space undefined\on@line .
+l.9 ...-Axis} }{\pageref{struct_xn_reference_axis}
+                                                  }{}
+? 
+
+LaTeX Warning: Reference `struct_xn_reference_axis' on page  undefined on input
+ line 9.
+
+
+! LaTeX Error: \begin{document} ended by \end{DoxyCompactList}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \end{DoxyCompactList}
+                          
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.10 \end{DoxyCompactList}
+                          
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.10 \end{DoxyCompactList}
+                          
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.10 \end{DoxyCompactList}
+                          
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.10 \end{DoxyCompactList}
+                          
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.10 \end{DoxyCompactList}
+                          
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.10 \end{DoxyCompactList}
+                          
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.10 \end{DoxyCompactList}
+                          
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.10 \end{DoxyCompactList}
+                          
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.10 \end{DoxyCompactList}
+                          
+? 
+)
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<*> annotated.tex class_
+                        head.tex class_joint.tex class_l_arm.tex class_l_leg...
+
+? 
+! Double subscript.
+<*> ...tex class_head.tex class_joint.tex class_l_
+                                                  arm.tex class_l_leg.tex cl...
+
+? 
+! Double subscript.
+<*> ...ex class_joint.tex class_l_arm.tex class_l_
+                                                  leg.tex class_r_arm.tex cl...
+
+? 
+! Double subscript.
+<*> ...ex class_l_arm.tex class_l_leg.tex class_r_
+                                                  arm.tex class_r_leg.tex hi...
+
+? 
+! Double subscript.
+<*> ...ex class_l_leg.tex class_r_arm.tex class_r_
+                                                  leg.tex hierarchy.tex kina...
+
+? 
+
+*
+! Missing $ inserted.
+<inserted text> 
+                $
+<*> 
+    
+? 
+
+Overfull \hbox (168.53497pt too wide) in paragraph at lines 9--0
+[]\OML/cmm/m/it/10 n[]eference[]xis[][][]$
+ []
+
+
+Overfull \hbox (633.7025pt too wide) in paragraph at lines 9--0
+[]\OML/cmm/m/it/10 ead:texclass[]oint:texclass[][]rm:texclass[][]eg:texclass[][
+]rm:texclass[][]eg:texhierarchy:texkinao[]scrito:texrefman:texstruct[]n[]eferen
+ce[]xis:tex$ 
+ []
+
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*\end
+
+*\end
+! TeX capacity exceeded, sorry [input stack size=5000].
+\end #1->\csname end#1
+                      \endcsname \@checkend {#1}\expandafter \endgroup \if@e...
+<*> \end
+        
+If you really absolutely need more capacity,
+you can ask a wizard to enlarge me.
+
+ 
+Here is how much of TeX's memory you used:
+ 20 strings out of 493848
+ 339 string characters out of 1152823
+ 51136 words of memory out of 3000000
+ 3395 multiletter control sequences out of 15000+50000
+ 3948 words of font info for 15 fonts, out of 3000000 for 9000
+ 714 hyphenation exceptions out of 8191
+ 5000i,5n,5000p,356b,138s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!

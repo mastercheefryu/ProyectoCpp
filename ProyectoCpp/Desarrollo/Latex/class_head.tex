@@ -1,0 +1,67 @@
+\hypertarget{class_head}{\subsection{\-Referencia de \-Clase \-Head}
+\label{class_head}\index{\-Head@{\-Head}}
+}
+
+
+\-Aqui se describe la clase derivada \char`\"{}\-Head\char`\"{}.  
+
+
+
+
+{\ttfamily \#include $<$joint.\-h$>$}
+
+%\-Inheritance diagram for \-Head\-:\begin{figure}[H]
+\-Diagrama de herencia para \-Head\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_head}
+\end{center}
+\end{figure}
+\subsection*{\-Funciones \-Miembro \-Públicas}
+
+\begin{itemize}
+\item
+\hypertarget{class_head_a0a4e931e188a25b60f6b992ff32f7bfa}{\hyperlink{class_head_a0a4e931e188a25b60f6b992ff32f7bfa}{\-Head} ()}\label{class_head_a0a4e931e188a25b60f6b992ff32f7bfa}
+\begin{itemize}
+\item\small\em \-Constructor de la clase Head \char`\"{}\-Head\char`\"{} y su funcionalidad.\end{itemize}
+
+\item
+\hypertarget{class_head_a502987ba6c8d6b615977150dd565fc27}{virtual \hyperlink{class_head_a502987ba6c8d6b615977150dd565fc27}{$\sim$\-Head} (void)}\label{class_head_a502987ba6c8d6b615977150dd565fc27}
+
+\begin{itemize}
+\small\item\em \-Destructor de la clase Head. \end{itemize}\item 
+virtual float \hyperlink{class_head_ad57a93c84de0a6681dce1dbcdc87823c}{get\-Head\-Pitch} (\-Xn\-User\-I\-D, xn\-::\-User\-Generator)
+
+\begin{itemize}
+\small\item\em \-Obtiene el ángulo que se determina a partir de la información brindada por kinect. \end{itemize}\item 
+\hypertarget{class_head_a6f624a1b326a840aad5221608809f40f}{virtual float \hyperlink{class_head_a6f624a1b326a840aad5221608809f40f}{set\-Head\-Pitch} (float, float \&, float \&)}\label{class_head_a6f624a1b326a840aad5221608809f40f}
+
+\begin{itemize}\small\item\em \-Determina el ángulo que es necesario que se mueva el \-N\-A\-O. \end{itemize}\end{itemize}
+
+
+\subsection{\-Descripción \-Detallada}
+\-En esta sección, se describe la clase derivada \char`\"{}\-Head\char`\"{}. Los joints relacionados con la cabeza sirven como referencia para la generación de los joints del torso, y por ende, los de las extremidades. Se aprovecha la capacidad de percepción de profundidad del Kinect para obtener datos de inclinación y rotación de la cabeza. 
+
+\subsection{\-Documentación de \-Función \-Miembro}
+\hypertarget{class_head_ad57a93c84de0a6681dce1dbcdc87823c}{\index{\-Head@{\-Head}!get\-Head\-Pitch@{get\-Head\-Pitch}}
+\index{get\-Head\-Pitch@{get\-Head\-Pitch}!Head@{\-Head}}
+\subsubsection[{get\-Head\-Pitch}]{\setlength{\rightskip}{0pt plus 5cm}float {\bf \-Head\-::get\-Head\-Pitch} (
+%%\begin{DoxyParamCaption}
+%%\item[{\-Xn\-User\-I\-D}]{user, }
+[{\-Xn\-User\-I\-D}]{user, }
+%%\item[{xn\-::\-User\-Generator}]{guser}
+[{xn\-::\-User\-Generator}]{guser}
+%%\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}\label{class_head_ad57a93c84de0a6681dce1dbcdc87823c}
+
+
+\-Primero se obtienen los puntos que van a determinar el ángulo de la cabeza, se toman los puntos de la frente, cuello y torso.\\
+\-Luego, como el Kinect permite obtener la profundidad, entonces se puede determinar, llamando a las funciones creadas en Joint, determinar el ángulo. 
+
+
+
+%%\-The documentation for this class was generated from the following files\-:\begin{itemize}
+\-La documentación para esta clase fue generada apartir de los archivos\-:\begin{itemize}
+\item 
+joint.\-h\item 
+head.\-cpp\end{itemize}

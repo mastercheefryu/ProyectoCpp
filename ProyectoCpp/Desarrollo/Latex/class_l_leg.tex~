@@ -1,0 +1,48 @@
+\hypertarget{class_l_leg}{\section{\-L\-Leg \-Class \-Reference}
+\label{class_l_leg}\index{\-L\-Leg@{\-L\-Leg}}
+}
+\-Inheritance diagram for \-L\-Leg\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_l_leg}
+\end{center}
+\end{figure}
+\subsection*{\-Public \-Member \-Functions}
+\begin{itemize}
+\item 
+virtual float \hyperlink{class_l_leg_ac0d2147e72701ad8202b758bb572735f}{get\-Hip\-Roll} (\-Xn\-User\-I\-D, xn\-::\-User\-Generator)
+\begin{itemize}\small\item\em \-Obtiene el angulo que se determina a partir del kinect del hombro. \end{itemize}\item 
+\hypertarget{class_l_leg_a200afc21f99236f2af57b95ea648573b}{virtual float \hyperlink{class_l_leg_a200afc21f99236f2af57b95ea648573b}{set\-Hip\-Roll} (float, float \&, float \&)}\label{class_l_leg_a200afc21f99236f2af57b95ea648573b}
+
+\begin{itemize}\small\item\em \-Genera el angulo necesario para mover el \-N\-A\-O. \end{itemize}\item 
+\hypertarget{class_l_leg_a4a31233e6def8edde81e5d694b7e0feb}{virtual float \hyperlink{class_l_leg_a4a31233e6def8edde81e5d694b7e0feb}{get\-Knee\-Pitch} (\-Xn\-User\-I\-D, xn\-::\-User\-Generator)}\label{class_l_leg_a4a31233e6def8edde81e5d694b7e0feb}
+
+\begin{itemize}\small\item\em \-Obtiene el angulo que se determina a partir del kinect. \end{itemize}\item 
+\hypertarget{class_l_leg_a15417e9792bbc9a2f398ed9127e3db11}{virtual float \hyperlink{class_l_leg_a15417e9792bbc9a2f398ed9127e3db11}{set\-Knee\-Pitch} (float, float \&, float \&)}\label{class_l_leg_a15417e9792bbc9a2f398ed9127e3db11}
+
+\begin{itemize}\small\item\em \-Genera el angulo necesario para mover el \-N\-A\-O. \end{itemize}\item 
+\hypertarget{class_l_leg_a85ec581c8db5d113a13be644a851753e}{virtual float \hyperlink{class_l_leg_a85ec581c8db5d113a13be644a851753e}{get\-Ankle\-Pitch} (\-Xn\-User\-I\-D, xn\-::\-User\-Generator)}\label{class_l_leg_a85ec581c8db5d113a13be644a851753e}
+
+\begin{itemize}\small\item\em \-Obtiene el angulo que se determina a partir del kinect. \end{itemize}\item 
+\hypertarget{class_l_leg_ab474375cb60e68fbf5790459b690b42f}{virtual float \hyperlink{class_l_leg_ab474375cb60e68fbf5790459b690b42f}{set\-Ankle\-Pitch} (float, float \&, float \&)}\label{class_l_leg_ab474375cb60e68fbf5790459b690b42f}
+
+\begin{itemize}\small\item\em \-Genera angulo para mover \-N\-A\-O. \end{itemize}\end{itemize}
+
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{class_l_leg_ac0d2147e72701ad8202b758bb572735f}{\index{\-L\-Leg@{\-L\-Leg}!get\-Hip\-Roll@{get\-Hip\-Roll}}
+\index{get\-Hip\-Roll@{get\-Hip\-Roll}!LLeg@{\-L\-Leg}}
+\subsubsection[{get\-Hip\-Roll}]{\setlength{\rightskip}{0pt plus 5cm}float {\bf \-L\-Leg\-::get\-Hip\-Roll} (
+[{\-Xn\-User\-I\-D}]{user, }
+[{xn\-::\-User\-Generator}]{guser}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}\label{class_l_leg_ac0d2147e72701ad8202b758bb572735f}
+
+
+\-Obtiene el angulo que se determina a partir del kinect del hombro. 
+
+\-Obtiene el angulo real dado por el kinect del movimiento del codo. 
+
+\-The documentation for this class was generated from the following files\-:\begin{itemize}
+\item 
+joint.\-h\item 
+lleg.\-cpp\end{itemize}
